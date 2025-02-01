@@ -1,4 +1,5 @@
 import { Quiz } from '../types';
+import { validateQuizAnswers, fixQuizAnswers } from './quizValidator';
 
 export function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -10,7 +11,35 @@ export function shuffleArray<T>(array: T[]): T[] {
 }
 
 export function prepareQuizQuestions(quiz: Quiz, maxQuestions?: number): Quiz {
-  const shuffledQuestions = shuffleArray(quiz.questions);
+  // First validate and fix any answer inconsistencies
+  const validation = validateQuizAnswers(quiz);
+  if (!validation.isValid) {
+    console.warn('Quiz validation errors:', validation.errors);
+    quiz = fixQuizAnswers(quiz);
+  }
+
+  const shuffledQuestions = shuffleArray(quiz.questions).map(question => {
+    // Skip shuffling for personality tests (where correctAnswer is null)
+    if (question.correctAnswer === null) {
+      return question;
+    }
+
+    // Get the correct answer value before shuffling
+    const correctAnswerValue = question.options[question.correctAnswer];
+
+    // Shuffle the options
+    const shuffledOptions = shuffleArray(question.options);
+
+    // Find the new index of the correct answer
+    const newCorrectAnswerIndex = shuffledOptions.indexOf(correctAnswerValue);
+
+    return {
+      ...question,
+      options: shuffledOptions,
+      correctAnswer: newCorrectAnswerIndex
+    };
+  });
+
   const selectedQuestions = maxQuestions 
     ? shuffledQuestions.slice(0, maxQuestions)
     : shuffledQuestions;

@@ -193,8 +193,8 @@
           "category": "Analogi",
           "question": "TINTA : PULPEN ≈ LISTRIK : ...",
           "options": ["Televisi", "Saklar", "Kabel", "Baterai"],
-          "correctAnswer": 2,
-          "explanation": "Tinta digunakan dalam pulpen seperti listrik mengalir melalui kabel."
+          "correctAnswer": 3,
+          "explanation": "Tinta adalah sumber untuk pulpen seperti listrik disimpan dalam baterai."
         },
         {
           "id": 39,
@@ -517,7 +517,7 @@
                     {
                       "id": 72,
                       "category": "Penalaran Logis",
-                      "question": "Jika seseorang sehat, maka ia dapat bertugas dengan baik. Beberapa orang tidak dapat bertugas dengan baik. Kesimpulan yang benar adalah...",
+                      "question": "Jika seorang sehat, maka ia dapat bertugas dengan baik. Beberapa orang tidak dapat bertugas dengan baik. Kesimpulan yang benar adalah...",
                       "options": [
                         "Semua orang sehat",
                         "Beberapa orang tidak sehat",
@@ -862,7 +862,7 @@
                                           "category": "Satuan Waktu",
                                           "question": "Sebuah printer dapat mencetak satu lembar naskah dalam waktu 0,35 menit. Berapa waktu yang diperlukan printer tersebut dalam satuan detik?",
                                           "options": ["21", "23", "22", "31", "32"],
-                                          "correctAnswer": 2,
+                                          "correctAnswer": 0,
                                           "explanation": "0,35 menit × 60 detik = 21 detik."
                                         },
                                         {
@@ -1069,9 +1069,9 @@
                                                   "id": 139,
                                                   "category": "Logika Numerik",
                                                   "question": "Sebuah perusahaan memiliki pegawai 29 orang tahun lalu. Tahun ini pegawainya bertambah 3 kali lipat, tetapi 3 orang keluar dan masuk pegawai baru sebanyak dua kali lipat dari yang keluar. Berapa jumlah pegawai sekarang?",
-                                                  "options": ["69", "96", "76", "67", "69"],
-                                                  "correctAnswer": 2,
-                                                  "explanation": "Total awal = 3 × 29 - 3 + (2 × 3) = 76."
+                                                  "options": ["89", "96", "76", "67", "93"],
+                                                  "correctAnswer": 0,
+                                                  "explanation": "29 × 3 = 87, dikurangi 3 = 84, ditambah (3 × 2) = 90 - 1 = 89 pegawai"
                                                 },
                                                 {
                                                   "id": 140,

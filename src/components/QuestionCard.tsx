@@ -90,8 +90,10 @@ export function QuestionCard({
           {options.map((option, index) => {
             const isSelected = selectedAnswer === index;
             const isPersonalityTest = correctAnswer === null;
-            const isCorrect = !isPersonalityTest && showExplanation && correctAnswer === index;
-            const isWrong = !isPersonalityTest && showExplanation && isSelected && correctAnswer !== index;
+            const isCorrect = !isPersonalityTest && showExplanation && index === correctAnswer;
+            const isWrong = !isPersonalityTest && showExplanation && isSelected && selectedAnswer !== correctAnswer;
+            const showCheckmark = isCorrect && showExplanation;
+            const showX = isWrong && showExplanation;
 
             return (
               <motion.button
@@ -105,8 +107,8 @@ export function QuestionCard({
                   ${isSelected ? 'translate-x-2' : 'hover:translate-x-1'}
                   ${!showExplanation && 'hover:bg-gray-50 hover:shadow-md'}
                   ${isSelected ? 'ring-2 ring-blue-500 bg-blue-50' : 'border border-gray-200'} 
-                  ${isCorrect ? 'ring-2 ring-green-500 bg-green-50' : ''}
-                  ${isWrong ? 'ring-2 ring-red-500 bg-red-50' : ''}
+                  ${showCheckmark ? 'ring-2 ring-green-500 bg-green-50' : ''}
+                  ${showX ? 'ring-2 ring-red-500 bg-red-50' : ''}
                   flex items-center justify-between group font-medium`}
               >
                 <span className={`${isSelected ? 'font-semibold' : ''} flex-1`}>{option}</span>
@@ -118,8 +120,8 @@ export function QuestionCard({
                       exit={{ scale: 0, opacity: 0 }}
                       className="ml-4"
                     >
-                      {isCorrect && <CheckCircle className="w-6 h-6 text-green-500" />}
-                      {isWrong && <XCircle className="w-6 h-6 text-red-500" />}
+                      {showCheckmark && <CheckCircle className="w-6 h-6 text-green-500" />}
+                      {showX && <XCircle className="w-6 h-6 text-red-500" />}
                     </motion.span>
                   )}
                 </AnimatePresence>

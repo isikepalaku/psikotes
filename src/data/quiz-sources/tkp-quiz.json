@@ -1,490 +1,620 @@
 {
-  "id": "polri_cermat_test",
-  "title": "Tes Kecermatan",
-  "timeLimit": 1800,
-  "icon": "Search",
-  "color": "green",
+  "id": "polri_cermat_test_final",
+  "title": "Tes Kecermatan Calon Perwira Polri",
+  "timeLimit": 3000,
+  "icon": "Brain",
+  "color": "darkred",
   "description": "Tes ini bertujuan untuk mengukur kecermatan, logika, dan konsistensi calon perwira Polri dalam mengenali pola angka, huruf, simbol, dan kombinasi. Soal dirancang untuk menilai kemampuan berpikir cepat dan tepat.",
   "questions": [
     {
       "id": 1,
       "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 5, 10, 15, ?, 25",
-      "options": ["18", "20", "22", "24"],
+      "question": "Tentukan angka yang hilang dalam deret: 3, 5, 9, 17, ?",
+      "options": ["30", "32", "33", "34"],
       "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 20, karena pola adalah penjumlahan 5 pada setiap langkah."
+      "explanation": "Selisih antar angka: 3→5 (+2), 5→9 (+4), 9→17 (+8). Pola penggandaan selisih (2, 4, 8) mengindikasikan penambahan berikutnya adalah 16, sehingga 17 + 16 = 33."
     },
     {
       "id": 2,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, C, E, ?, I",
-      "options": ["F", "G", "H", "K"],
-      "correctAnswer": 2,
-      "explanation": "Huruf yang hilang adalah G, karena pola adalah lompatan dua huruf."
+      "question": "Tentukan huruf yang hilang dalam urutan: A, C, F, J, ?",
+      "options": ["N", "O", "P", "Q"],
+      "correctAnswer": 1,
+      "explanation": "Posisi huruf: A(1), C(3), F(6), J(10). Selisihnya berturut-turut: +2, +3, +4; sehingga selanjutnya adalah +5: 10 + 5 = 15, huruf ke-15 adalah O."
     },
     {
       "id": 3,
       "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♥, ★, ♥, ?",
-      "options": ["★", "♥", "♦", "♣"],
-      "correctAnswer": 1,
-      "explanation": "Simbol yang hilang adalah ★, karena pola simbol bergantian antara ★ dan ♥."
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♠, ♥, ♣, ?, ♠, ♥",
+      "options": ["♠", "♥", "♣", "♦"],
+      "correctAnswer": 3,
+      "explanation": "Pola siklus pada urutan simbol adalah: ♠, ♥, ♣, ♦, kemudian diulang: ♠, ♥. Oleh karena itu, simbol yang hilang adalah ♦."
     },
     {
       "id": 4,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 4, 8, 16, ?",
-      "options": ["20", "24", "32", "64"],
-      "correctAnswer": 3,
-      "explanation": "Angka yang hilang adalah 32, karena pola adalah penggandaan dua kali lipat."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A1, D3, G5, ?, M9",
+      "options": ["I7", "J7", "K7", "L7"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3 posisi (A→D→G→J→M) dan angka bertambah 2 (1, 3, 5, 7, 9). Jadi, kombinasi yang hilang adalah J7."
     },
     {
       "id": 5,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, V, ?, R",
-      "options": ["S", "T", "U", "W"],
-      "correctAnswer": 4,
-      "explanation": "Huruf yang hilang adalah T, karena pola adalah pengurangan dua huruf."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 144, 121, 100, ?, 64",
+      "options": ["81", "80", "82", "83"],
+      "correctAnswer": 0,
+      "explanation": "Deret tersebut merupakan kuadrat berurutan: 12² = 144, 11² = 121, 10² = 100, 9² = 81, dan 8² = 64. Jadi, angka yang hilang adalah 81."
     },
     {
       "id": 6,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♠, ♦, ?, ♣",
-      "options": ["♦", "♠", "♥", "♣"],
-      "correctAnswer": 3,
-      "explanation": "Simbol yang hilang adalah ♥, karena pola adalah rotasi ♣ → ♠ → ♦ → ♥."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: Z, X, V, ?, R",
+      "options": ["U", "T", "S", "Q"],
+      "correctAnswer": 1,
+      "explanation": "Huruf-huruf tersebut: Z(26), X(24), V(22) berkurang 2 setiap langkah. Sehingga, 22 - 2 = 20 yang merupakan huruf T. Dilanjutkan dengan R (18)."
     },
     {
       "id": 7,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A1, B2, C3, ?, E5",
-      "options": ["C4", "D4", "D3", "E4"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah D4, karena pola adalah urutan abjad dan angka bertambah satu."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ▲, ■, ▲, ▲, ■, ?",
+      "options": ["▲", "■", "●", "▼"],
+      "correctAnswer": 0,
+      "explanation": "Pola urutan menunjukkan pengulangan: ▲, ■, ▲, ▲, ■, sehingga simbol selanjutnya mengikuti pola dan adalah ▲."
     },
     {
       "id": 8,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 100, 90, 80, ?, 60",
-      "options": ["50", "70", "75", "65"],
-      "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 70, karena pola adalah pengurangan 10 setiap langkah."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: C3, F6, I9, ?, O15",
+      "options": ["K10", "L12", "M11", "N12"],
+      "correctAnswer": 1,
+      "explanation": "Huruf: C, F, I, L, O (bertambah 3 posisi tiap kali) dan angka: 3, 6, 9, 12, 15 (bertambah 3). Jadi, kombinasi yang hilang adalah L12."
     },
     {
       "id": 9,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: M, O, Q, ?, U",
-      "options": ["R", "S", "T", "V"],
-      "correctAnswer": 3,
-      "explanation": "Huruf yang hilang adalah S, karena pola adalah lompatan dua huruf."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 5, 10, 20, 40, ?, 160",
+      "options": ["70", "75", "80", "85"],
+      "correctAnswer": 2,
+      "explanation": "Setiap angka merupakan kelipatan 2 dari angka sebelumnya: 5, 10, 20, 40, 80, 160. Jadi, angka yang hilang adalah 80."
     },
     {
       "id": 10,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♦, ♥, ?, ♥",
-      "options": ["♦", "♠", "♣", "★"],
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: F5, I8, L11, ?, R17",
+      "options": ["N13", "O14", "P15", "Q16"],
       "correctAnswer": 1,
-      "explanation": "Simbol yang hilang adalah ♦, karena pola bergantian antara ♥ dan ♦."
+      "explanation": "Huruf: F, I, L, O, R (bertambah 3 posisi tiap kali) dan angka: 5, 8, 11, 14, 17 (bertambah 3). Jadi, kombinasi yang hilang adalah O14."
     },
     {
       "id": 11,
       "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 1, 3, 6, 10, ?, 21",
-      "options": ["14", "15", "16", "18"],
+      "question": "Tentukan angka yang hilang dalam deret: 2, 6, 12, 20, ?",
+      "options": ["28", "29", "30", "31"],
       "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 15, karena pola adalah penjumlahan bertahap: +2, +3, +4, +5, ..."
+      "explanation": "Selisih berturut-turut: 6-2 = 4, 12-6 = 6, 20-12 = 8. Pola bertambah 2 setiap kali, sehingga selisih berikutnya adalah 10 dan angka yang hilang adalah 20 + 10 = 30."
     },
     {
       "id": 12,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: B, D, G, K, ?, U",
-      "options": ["O", "Q", "P", "R"],
+      "question": "Tentukan huruf yang hilang dalam urutan: B, E, I, N, ?",
+      "options": ["S", "T", "U", "V"],
       "correctAnswer": 1,
-      "explanation": "Huruf yang hilang adalah Q, karena pola adalah penjumlahan bertahap: +2, +3, +4, +5."
+      "explanation": "Posisi huruf: B (2), E (5), I (9), N (14). Selisihnya adalah +3, +4, +5 sehingga selisih berikutnya adalah +6: 14 + 6 = 20, yang merupakan huruf T."
     },
     {
       "id": 13,
       "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♠, ♦, ♥, ♣, ?, ♠",
-      "options": ["♥", "♦", "♣", "★"],
-      "correctAnswer": 3,
-      "explanation": "Simbol yang hilang adalah ♣, karena pola berulang: ♠ → ♦ → ♥ → ♣."
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♤, ♡, ♧, ♢, ♤, ♡, ?",
+      "options": ["♤", "♡", "♧", "♢"],
+      "correctAnswer": 2,
+      "explanation": "Urutan simbol berulang dengan pola empat elemen: ♤, ♡, ♧, ♢. Setelah dua siklus (♤, ♡) dimulai kembali, simbol yang tepat sesuai urutan adalah ♧."
     },
     {
       "id": 14,
       "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, B4, C6, ?, E10",
-      "options": ["D7", "D8", "D9", "D12"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah D8, karena pola adalah huruf bertambah satu, angka bertambah dua."
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: B2, E4, H6, K8, ?, Q12",
+      "options": ["M10", "N10", "O10", "P10"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3 posisi setiap kali: B, E, H, K, N, Q. Angka bertambah 2: 2, 4, 6, 8, 10, 12. Maka kombinasi yang hilang adalah N10."
     },
     {
       "id": 15,
       "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 243, 81, 27, 9, ?, 1",
-      "options": ["6", "3", "5", "7"],
+      "question": "Tentukan angka yang hilang dalam deret: 10, 15, 21, 28, ?",
+      "options": ["34", "35", "36", "37"],
       "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 3, karena pola adalah pembagian 3."
+      "explanation": "Selisih antar angka: 15-10 = 5, 21-15 = 6, 28-21 = 7. Dengan pola kenaikan selisih sebesar +1, selisih berikutnya adalah 8 sehingga 28 + 8 = 36."
     },
     {
       "id": 16,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: P, R, U, Y, ?, G",
-      "options": ["A", "B", "C", "D"],
+      "question": "Tentukan huruf yang hilang dalam urutan: M, P, S, ?, Y",
+      "options": ["U", "V", "W", "X"],
       "correctAnswer": 1,
-      "explanation": "Huruf yang hilang adalah A, karena pola adalah lompatan bertahap: +2, +3, +4, +5."
+      "explanation": "Posisi huruf: M (13), P (16), S (19). Dengan penambahan konsisten +3, huruf berikutnya adalah 19 + 3 = 22, yaitu V."
     },
     {
       "id": 17,
       "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♠, ♣, ♦, ?, ♥",
-      "options": ["♣", "♦", "♥", "★"],
-      "correctAnswer": 2,
-      "explanation": "Simbol yang hilang adalah ♦, karena pola berulang: ♣ → ♠ → ♣ → ♦."
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ★, ☆, ☆, ★, ?",
+      "options": ["★", "☆", "♠", "♦"],
+      "correctAnswer": 0,
+      "explanation": "Pola urutan adalah dua simbol yang sama diikuti oleh dua simbol lain. Setelah ★, ★, ☆, ☆, pola berlanjut dengan dua ★, sehingga simbol yang hilang adalah ★."
     },
     {
       "id": 18,
       "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, Y2, X4, W8, ?",
-      "options": ["V10", "V12", "V16", "V14"],
-      "correctAnswer": 3,
-      "explanation": "Kombinasi yang hilang adalah V16, karena pola huruf mundur satu, angka dikalikan dua."
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: D2, G5, J8, ?, P14",
+      "options": ["M10", "M11", "N11", "O11"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3 posisi: D, G, J, M, P. Angka bertambah 3: 2, 5, 8, 11, 14. Maka kombinasi yang hilang adalah M11."
     },
     {
       "id": 19,
       "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 1, 4, 9, 16, ?, 36",
-      "options": ["20", "25", "30", "34"],
+      "question": "Tentukan angka yang hilang dalam deret: 7, 14, 21, ?, 35",
+      "options": ["26", "27", "28", "29"],
       "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 25, karena pola adalah bilangan kuadrat: 1², 2², 3², ..."
+      "explanation": "Deret tersebut merupakan kelipatan 7: 7, 14, 21, 28, 35. Jadi, angka yang hilang adalah 28."
     },
     {
       "id": 20,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, Z, Y, B, ?, X",
-      "options": ["C", "W", "D", "V"],
+      "question": "Tentukan huruf yang hilang dalam urutan: E, H, L, Q, ?",
+      "options": ["V", "W", "X", "Y"],
       "correctAnswer": 1,
-      "explanation": "Huruf yang hilang adalah C, karena pola zig-zag: A → Z → Y → B → C."
+      "explanation": "Posisi huruf: E (5), H (8), L (12), Q (17). Selisih antar posisi adalah +3, +4, +5 sehingga selisih berikutnya adalah +6: 17 + 6 = 23, yang merupakan huruf W."
     },
     {
       "id": 21,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♦, ♥, ♣, ♠, ?, ♦",
-      "options": ["★", "♥", "♣", "♠"],
-      "correctAnswer": 4,
-      "explanation": "Simbol yang hilang adalah ♠, karena pola berulang setelah satu putaran."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 4, 9, 16, 25, ?",
+      "options": ["30", "34", "36", "40"],
+      "correctAnswer": 2,
+      "explanation": "Deret tersebut adalah bilangan kuadrat: 2² = 4, 3² = 9, 4² = 16, 5² = 25, sehingga angka berikutnya adalah 6² = 36."
     },
     {
       "id": 22,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A1, C4, E9, ?, I25",
-      "options": ["G12", "G16", "H16", "H18"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah G16, karena pola huruf lompat dua, angka adalah kuadrat: 1², 2², 3²."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 1, 1, 2, 3, 5, ?",
+      "options": ["7", "8", "9", "10"],
+      "correctAnswer": 1,
+      "explanation": "Deret tersebut adalah deret Fibonacci: 1, 1, 2, 3, 5, sehingga angka berikutnya adalah 8."
     },
     {
       "id": 23,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 100, 50, 25, ?, 6.25",
-      "options": ["10", "12.5", "15", "20"],
-      "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 12.5, karena pola adalah pembagian dua."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: C, F, J, O, ?",
+      "options": ["U", "V", "W", "X"],
+      "correctAnswer": 0,
+      "explanation": "Posisi huruf: C (3), F (6), J (10), O (15). Selisihnya berturut-turut adalah +3, +4, +5, sehingga selanjutnya adalah +6: 15 + 6 = 21. Huruf ke-21 adalah U."
     },
     {
       "id": 24,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: M, K, J, H, ?, E",
-      "options": ["G", "F", "I", "D"],
-      "correctAnswer": 2,
-      "explanation": "Huruf yang hilang adalah F, karena pola mundur bertahap: -2, -1, -2."
+      "question": "Tentukan huruf yang hilang dalam urutan: T, Q, N, K, ?",
+      "options": ["I", "H", "G", "F"],
+      "correctAnswer": 1,
+      "explanation": "Urutan huruf: T (20), Q (17), N (14), K (11). Dengan pengurangan konstan 3, huruf berikutnya adalah 11 - 3 = 8, yaitu H."
     },
     {
       "id": 25,
       "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♠, ♦, ?, ♣",
-      "options": ["♦", "♠", "★", "♥"],
-      "correctAnswer": 4,
-      "explanation": "Simbol yang hilang adalah ♥, karena pola rotasi berulang."
+      "question": "Tentukan simbol yang hilang dalam urutan: ♥, ♦, ♣, ♠, ♥, ♦, ?",
+      "options": ["♣", "♠", "♥", "♦"],
+      "correctAnswer": 0,
+      "explanation": "Pola urutan simbol: ♥, ♦, ♣, ♠, kemudian berulang dengan ♥, ♦, sehingga yang hilang adalah ♣."
     },
     {
       "id": 26,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: P2, R4, T8, ?, X32",
-      "options": ["V10", "V12", "V16", "V20"],
-      "correctAnswer": 3,
-      "explanation": "Kombinasi yang hilang adalah V16, karena huruf lompat dua, angka dikali dua."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ★, ☆, ★, ☆, ?, ☆",
+      "options": ["☆", "★", "♠", "♥"],
+      "correctAnswer": 1,
+      "explanation": "Pola bergantian: ★, ☆, ★, ☆, kemudian ★, ☆. Maka simbol yang hilang adalah ★."
     },
     {
       "id": 27,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 6, 18, 54, ?, 486",
-      "options": ["108", "162", "216", "324"],
-      "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 162, karena pola adalah perkalian tiga."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: G7, J10, M13, ?, S19",
+      "options": ["O15", "P16", "Q16", "R16"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3 (G, J, M, P, S) dan angka bertambah 3 (7, 10, 13, 16, 19). Sehingga kombinasi yang hilang adalah P16."
     },
     {
       "id": 28,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, W, T, ?, N",
-      "options": ["Q", "P", "R", "O"],
-      "correctAnswer": 4,
-      "explanation": "Huruf yang hilang adalah Q, karena pola mundur bertahap."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: T2, Q4, N6, ?, H10",
+      "options": ["L8", "K8", "J8", "I8"],
+      "correctAnswer": 1,
+      "explanation": "Huruf menurun dengan selisih 3: T, Q, N, K, H; dan angka bertambah 2: 2, 4, 6, 8, 10. Jadi, yang hilang adalah K8."
     },
     {
       "id": 29,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ★, ♠, ?, ♦",
-      "options": ["♣", "♥", "★", "♠"],
-      "correctAnswer": 1,
-      "explanation": "Simbol yang hilang adalah ♣, karena pola adalah rotasi."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 2, 4, 8, 16, ?, 64",
+      "options": ["30", "31", "32", "33"],
+      "correctAnswer": 2,
+      "explanation": "Setiap angka merupakan kelipatan 2 dari angka sebelumnya: 2, 4, 8, 16, 32, 64."
     },
     {
       "id": 30,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: B3, D6, F12, ?, J48",
-      "options": ["H16", "H24", "H36", "H48"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah H24, karena huruf lompat dua, angka dikali dua."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: A, E, I, M, ?",
+      "options": ["Q", "P", "R", "S"],
+      "correctAnswer": 0,
+      "explanation": "Posisi huruf: A (1), E (5), I (9), M (13). Setiap huruf bertambah 4, sehingga huruf berikutnya adalah Q (17)."
     },
     {
       "id": 31,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 8, 12, 18, 27, ?, 54",
-      "options": ["34", "38", "42", "45"],
-      "correctAnswer": 4,
-      "explanation": "Angka yang hilang adalah 45, karena pola adalah penjumlahan bilangan prima bertahap: +4, +6, +9, +18."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ☀, ☁, ☀, ☁, ?, ☁",
+      "options": ["☀", "☁", "★", "☆"],
+      "correctAnswer": 0,
+      "explanation": "Pola bergantian: ☀, ☁, ☀, ☁, sehingga simbol yang hilang adalah ☀."
     },
     {
       "id": 32,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: C, F, J, O, ?, Z",
-      "options": ["R", "S", "T", "U"],
-      "correctAnswer": 3,
-      "explanation": "Huruf yang hilang adalah T, karena pola adalah penjumlahan bertahap: +3, +4, +5, +6."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: E3, G6, I9, ?, M15",
+      "options": ["J12", "K12", "L12", "M12"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 2 (E, G, I, K, M) dan angka bertambah 3 (3, 6, 9, 12, 15), sehingga yang hilang adalah K12."
     },
     {
       "id": 33,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♦, ♠, ?, ♦, ♥",
-      "options": ["♣", "♠", "♦", "★"],
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 200, 180, 162, ?, 131.22",
+      "options": ["144", "145.8", "146", "147"],
       "correctAnswer": 1,
-      "explanation": "Simbol yang hilang adalah ♣, karena pola adalah rotasi: ♥ → ♦ → ♠ → ♣."
+      "explanation": "Deret tersebut dikalikan 0.9 setiap kali: 200 → 180 → 162 → 145.8 → 131.22."
     },
     {
       "id": 34,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A3, C6, E12, ?, I48",
-      "options": ["G18", "G24", "H24", "H36"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah G24, karena huruf lompat dua dan angka dikalikan dua bertahap."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: K, O, S, W, ?",
+      "options": ["A", "B", "C", "D"],
+      "correctAnswer": 0,
+      "explanation": "Huruf: K (11), O (15), S (19), W (23) dengan penambahan +4 setiap kali. 23 + 4 = 27; dengan siklus alfabet, 27 - 26 = 1, yaitu A."
     },
     {
       "id": 35,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 121, 144, 169, 196, ?, 256",
-      "options": ["200", "225", "235", "240"],
-      "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 225, karena pola adalah bilangan kuadrat: 11², 12², 13², ..."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ♤, ♧, ♡, ♢, ?",
+      "options": ["♤", "♧", "♡", "♢"],
+      "correctAnswer": 0,
+      "explanation": "Pola mengikuti urutan simbol kartu remi: ♤, ♧, ♡, ♢, kemudian kembali ke ♤."
     },
     {
       "id": 36,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, T, ?, K",
-      "options": ["O", "P", "Q", "R"],
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: H8, K11, N14, Q17, ?",
+      "options": ["S19", "T20", "U21", "V22"],
       "correctAnswer": 1,
-      "explanation": "Huruf yang hilang adalah O, karena pola adalah pengurangan bertahap: -2, -4, -6, ..."
+      "explanation": "Huruf bertambah 3 (H, K, N, Q, T) dan angka bertambah 3 (8, 11, 14, 17, 20), sehingga yang hilang adalah T20."
     },
     {
       "id": 37,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♣, ♥, ?, ♠, ★",
-      "options": ["♦", "♣", "♥", "♠"],
-      "correctAnswer": 1,
-      "explanation": "Simbol yang hilang adalah ♦, karena pola adalah rotasi ★ → ♣ → ♥ → ♦."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 3, 7, 15, 31, ?",
+      "options": ["60", "61", "62", "63"],
+      "correctAnswer": 3,
+      "explanation": "Deret tersebut mengikuti pola 2ⁿ - 1: 2²-1 = 3, 2³-1 = 7, 2⁴-1 = 15, 2⁵-1 = 31, sehingga 2⁶-1 = 63."
     },
     {
       "id": 38,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, Y4, X9, ?, V25",
-      "options": ["W12", "W16", "W18", "W20"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah W16, karena huruf mundur satu dan angka adalah kuadrat bertahap: 1², 2², 3²."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: F, J, O, U, ?",
+      "options": ["A", "B", "C", "D"],
+      "correctAnswer": 1,
+      "explanation": "Posisi huruf: F (6), J (10), O (15), U (21). Selisihnya berturut-turut adalah +4, +5, +6, sehingga selanjutnya adalah +7: 21 + 7 = 28. Setelah disesuaikan dengan 26 huruf, 28 - 26 = 2, yaitu B."
     },
     {
       "id": 39,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 3, 6, 18, 108, ?, 1296",
-      "options": ["216", "432", "648", "864"],
-      "correctAnswer": 3,
-      "explanation": "Angka yang hilang adalah 648, karena pola adalah kelipatan bertahap: ×2, ×3, ×6, ..."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ♡, ♥, ♡, ♥, ?",
+      "options": ["♡", "♥", "♣", "♠"],
+      "correctAnswer": 0,
+      "explanation": "Pola bergantian: ♡, ♥, ♡, ♥, sehingga simbol yang hilang adalah ♡."
     },
     {
       "id": 40,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, D, H, M, ?, Z",
-      "options": ["P", "Q", "R", "S"],
-      "correctAnswer": 3,
-      "explanation": "Huruf yang hilang adalah R, karena pola adalah penjumlahan bertahap: +3, +4, +5, +6."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A5, C8, E11, ?, I17",
+      "options": ["F14", "G14", "H14", "I14"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 2 (A, C, E, G, I) dan angka bertambah 3 (5, 8, 11, 14, 17), sehingga yang hilang adalah G14."
     },
     {
       "id": 41,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♥, ♠, ♦, ?, ♠",
-      "options": ["♥", "♣", "♦", "★"],
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 5, 7, 11, 17, ?",
+      "options": ["22", "23", "25", "27"],
       "correctAnswer": 2,
-      "explanation": "Simbol yang hilang adalah ♣, karena pola: ♥ → ♥ → ♠ → ♦ → ♣."
+      "explanation": "Selisih antar angka: 7-5 = 2, 11-7 = 4, 17-11 = 6. Pola menunjukkan penambahan yang meningkat sebesar 2 setiap kali, sehingga selisih berikutnya adalah 8. Maka, angka yang hilang adalah 17 + 8 = 25."
     },
     {
       "id": 42,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, C6, E12, G20, ?",
-      "options": ["I30", "I32", "I36", "I40"],
-      "correctAnswer": 4,
-      "explanation": "Kombinasi yang hilang adalah I40, karena huruf lompat dua dan angka bertambah dengan kelipatan genap."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: A, C, F, J, O, ?",
+      "options": ["U", "V", "W", "X"],
+      "correctAnswer": 0,
+      "explanation": "Posisi huruf: A (1), C (3), F (6), J (10), O (15). Selisihnya berturut-turut: +2, +3, +4, sehingga penambahan berikutnya adalah +5. 15 + 6 = 21, huruf ke-21 adalah U."
     },
     {
       "id": 43,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 8, 32, 128, ?, 2048",
-      "options": ["256", "512", "1024", "2048"],
-      "correctAnswer": 3,
-      "explanation": "Angka yang hilang adalah 1024, karena pola adalah kelipatan empat: ×4."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ☺, ☻, ☺, ?, ☻",
+      "options": ["☺", "☻", "♥", "♦"],
+      "correctAnswer": 0,
+      "explanation": "Pola menunjukkan pergantian yang konsisten antara dua simbol. Setelah urutan ☺, ☻, ☺, simbol yang harus muncul selanjutnya adalah ☺."
     },
     {
       "id": 44,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, V, T, ?, P",
-      "options": ["R", "Q", "O", "S"],
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: B4, E7, H10, ?, N16",
+      "options": ["J12", "K13", "L14", "M15"],
       "correctAnswer": 1,
-      "explanation": "Huruf yang hilang adalah R, karena pola mundur bertahap: -2."
+      "explanation": "Huruf bertambah 3 posisi: B, E, H, K, N dan angka bertambah 3: 4, 7, 10, 13, 16. Jadi, kombinasi yang hilang adalah K13."
     },
     {
       "id": 45,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♠, ♠, ♥, ♥, ?, ♣",
-      "options": ["♣", "♦", "♠", "★"],
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 100, 90, 81, ?, 65.61",
+      "options": ["70.9", "71.9", "72.9", "73.9"],
       "correctAnswer": 2,
-      "explanation": "Simbol yang hilang adalah ♦, karena pola pengulangan dua kali tiap simbol."
+      "explanation": "Setiap angka dikalikan dengan 0.9: 100 × 0.9 = 90, 90 × 0.9 = 81, sehingga 81 × 0.9 = 72.9 dan 72.9 × 0.9 = 65.61."
     },
     {
       "id": 46,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: B1, D4, F9, ?, J25",
-      "options": ["H12", "H16", "H20", "H18"],
-      "correctAnswer": 2,
-      "explanation": "Kombinasi yang hilang adalah H16, karena huruf lompat dua dan angka adalah bilangan kuadrat."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: P, O, M, J, ?",
+      "options": ["F", "G", "E", "D"],
+      "correctAnswer": 0,
+      "explanation": "Posisi huruf: P (16), O (15), M (13), J (10). Perbedaan berurutan: -1, -2, -3; sehingga perbedaan selanjutnya adalah -4. 10 - 4 = 6, yang merupakan huruf F."
     },
     {
       "id": 47,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 50, 45, 40, ?, 30",
-      "options": ["38", "35", "36", "34"],
-      "correctAnswer": 2,
-      "explanation": "Angka yang hilang adalah 35, karena pola pengurangan 5 bertahap."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ♫, ♩, ♫, ♩, ?",
+      "options": ["♫", "♩", "♪", "♬"],
+      "correctAnswer": 0,
+      "explanation": "Pola bergantian antara ♫ dan ♩ mengindikasikan bahwa simbol yang hilang adalah ♫."
     },
     {
       "id": 48,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, E, I, ?, U",
-      "options": ["M", "O", "Q", "S"],
-      "correctAnswer": 2,
-      "explanation": "Huruf yang hilang adalah O, karena pola adalah vokal."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: D10, G15, J20, ?, P30",
+      "options": ["L25", "M25", "N25", "O25"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3 posisi: D, G, J, M, P dan angka bertambah 5: 10, 15, 20, 25, 30. Jadi, yang hilang adalah M25."
     },
     {
       "id": 49,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♥, ♠, ♦, ?, ♥",
-      "options": ["♠", "♣", "♦", "★"],
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 11, 13, 17, 19, ?, 29",
+      "options": ["21", "22", "23", "24"],
       "correctAnswer": 2,
-      "explanation": "Simbol yang hilang adalah ♣, karena pola berulang rotasi."
+      "explanation": "Deret tersebut merupakan deret bilangan prima: 11, 13, 17, 19, 23, 29. Maka, angka yang hilang adalah 23."
     },
     {
       "id": 50,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A3, C6, E12, G24, ?",
-      "options": ["I30", "I36", "I48", "I40"],
-      "correctAnswer": 3,
-      "explanation": "Kombinasi yang hilang adalah I48, karena huruf lompat dua dan angka dikalikan dua bertahap."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: Z, X, V, T, ?",
+      "options": ["Q", "R", "S", "T"],
+      "correctAnswer": 1,
+      "explanation": "Posisi huruf: Z (26), X (24), V (22), T (20). Selisihnya konsisten -2, sehingga huruf yang hilang adalah R (18)."
     },
     {
       "id": 51,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 6, 15, 31, ?, 98",
-      "options": ["56", "57", "62", "63"],
-      "correctAnswer": 2,
-      "explanation": "Cari pola penjumlahan bertahap: 2 → 6 (+4), 6 → 15 (+9), 15 → 31 (+16). Pola adalah bilangan kuadrat: 2², 3², 4². Tambahkan 5² = 25 ke 31. Jawaban: 57."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ☼, ☽, ☼, ☽, ?, ☽",
+      "options": ["☼", "☽", "☀", "☾"],
+      "correctAnswer": 0,
+      "explanation": "Pola bergantian antara ☼ dan ☽ mengharuskan simbol yang hilang adalah ☼."
     },
     {
       "id": 52,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: B, F, M, W, ?, Z",
-      "options": ["J", "K", "L", "P"],
-      "correctAnswer": 3,
-      "explanation": "Lihat posisi huruf di alfabet: B(2), F(6), M(13), W(23). Pola adalah penjumlahan bertahap: +4, +7, +10, +13. Tambahkan 13 ke posisi W (23): 23 + 13 = 36 (huruf ke-36 = L). Jawaban: L."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: F6, I9, L12, ?, R18",
+      "options": ["K15", "O15", "P15", "Q15"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 3: F, I, L, O, R dan angka bertambah 3: 6, 9, 12, 15, 18. Jadi, yang hilang adalah O15."
     },
     {
       "id": 53,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♥, ♠, ♦, ♣, ?, ♥",
-      "options": ["♠", "♦", "♣", "★"],
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 50, 45, 40, ?, 30",
+      "options": ["34", "35", "36", "37"],
       "correctAnswer": 1,
-      "explanation": "Rotasi simbol secara berulang: ★ → ♥ → ♠ → ♦ → ♣ → ♠. Simbol berikutnya setelah ♣ adalah ♠. Jawaban: ♠."
+      "explanation": "Deret tersebut menurun dengan selisih 5 setiap kali: 50, 45, 40, 35, 30. Maka, angka yang hilang adalah 35."
     },
     {
       "id": 54,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, D6, G12, ?, M30",
-      "options": ["I20", "J18", "J24", "K20"],
-      "correctAnswer": 3,
-      "explanation": "Huruf bertambah tiga: A → D → G → J → M. Angka bertambah kelipatan dua: +2, +4, +6, +12. Jawaban: J24."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: A, B, D, G, ?",
+      "options": ["J", "K", "L", "M"],
+      "correctAnswer": 1,
+      "explanation": "Perbedaan antar huruf: A ke B = +1, B ke D = +2, D ke G = +3. Dengan pola ini, selanjutnya adalah +4 sehingga G (huruf ke-7) + 4 = 11, yang merupakan K."
     },
     {
       "id": 55,
-      "category": "Angka Hilang",
-      "question": "Tentukan angka yang hilang dalam urutan berikut: 1000, 200, 40, 8, ?, 0.16",
-      "options": ["2.0", "1.6", "1.2", "0.8"],
-      "correctAnswer": 2,
-      "explanation": "Pola adalah pembagian bertahap dengan 5: 1000 ÷ 5 = 200, 200 ÷ 5 = 40, 40 ÷ 5 = 8, 8 ÷ 5 = 1.6. Jawaban: 1.6."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ♣, ♠, ♣, ♠, ♣, ?",
+      "options": ["♣", "♠", "♥", "♦"],
+      "correctAnswer": 1,
+      "explanation": "Pola bergantian antara ♣ dan ♠ menunjukkan bahwa simbol yang hilang adalah ♠."
     },
     {
       "id": 56,
-      "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, C, G, M, ?, Z",
-      "options": ["R", "P", "S", "T"],
-      "correctAnswer": 3,
-      "explanation": "Pola posisi huruf berdasarkan penggandaan indeks: 1², 2², 3², 4². Huruf ke-19 adalah S. Jawaban: S."
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: J10, L13, N16, ?, R22",
+      "options": ["O19", "P19", "Q19", "R19"],
+      "correctAnswer": 1,
+      "explanation": "Huruf bertambah 2: J, L, N, P, R dan angka bertambah 3: 10, 13, 16, 19, 22. Maka, kombinasi yang hilang adalah P19."
     },
     {
       "id": 57,
-      "category": "Simbol Hilang",
-      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♥, ♠, ♦, ♦, ♣, ?, ♠",
-      "options": ["♣", "♦", "★", "♥"],
-      "correctAnswer": 1,
-      "explanation": "Pola simbol diulang dua kali sebelum berlanjut: ♥ → ♥ → ♠ → ♦ → ♦ → ♣. Simbol berikutnya adalah ♣. Jawaban: ♣."
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 6, 10, 18, 34, ?",
+      "options": ["64", "65", "66", "67"],
+      "correctAnswer": 2,
+      "explanation": "Selisih antar angka: 10-6 = 4, 18-10 = 8, 34-18 = 16. Pola menggandakan selisih (4, 8, 16) mengindikasikan selisih berikutnya adalah 32. Maka, angka yang hilang adalah 34 + 32 = 66."
     },
     {
       "id": 58,
-      "category": "Kombinasi",
-      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, X3, V6, ?, R21",
-      "options": ["T10", "T12", "T15", "T18"],
-      "correctAnswer": 4,
-      "explanation": "Huruf mundur dua: Z → X → V → T → R. Angka bertambah: +2, +3, +6, +9. Jawaban: T18."
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: W, U, S, Q, ?",
+      "options": ["O", "P", "Q", "R"],
+      "correctAnswer": 0,
+      "explanation": "Urutan huruf: W (23), U (21), S (19), Q (17) berkurang 2 setiap kali. Maka, huruf yang hilang adalah 17 - 2 = 15, yaitu O."
     },
     {
       "id": 59,
-      "category": "Angka Hilang",
-      "question": "Berapa angka yang harus menggantikan tanda tanya (?) dalam pola berikut? 3, 12, 60, 360, ?, 2520",
-      "options": ["420", "720", "1260", "2520"],
-      "correctAnswer": 3,
-      "explanation": "Setiap angka dalam pola ini dikalikan bertahap dengan angka yang lebih besar: 3 × 4 = 12, 12 × 5 = 60, 60 × 6 = 360, dan seterusnya. Jadi, angka yang hilang dihitung dengan 360 × 7 = 1260. Jawaban yang benar adalah 1260."
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ◄, ►, ◄, ?, ◄, ►",
+      "options": ["◄", "►", "▲", "▼"],
+      "correctAnswer": 1,
+      "explanation": "Pola bergantian antara ◄ dan ► menunjukkan bahwa simbol yang hilang adalah ►."
     },
     {
       "id": 60,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: S20, Q18, O16, ?, K12",
+      "options": ["M14", "N14", "L14", "J14"],
+      "correctAnswer": 0,
+      "explanation": "Huruf berkurang 2 posisi: S, Q, O, M, K dan angka berkurang 2: 20, 18, 16, 14, 12. Jadi, yang hilang adalah M14."
+    },
+    {
+      "id": 61,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 1, 2, 6, 24, 120, ?",
+      "options": [
+        "720",
+        "600",
+        "840",
+        "1024"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deret ini adalah deret faktorial. Kita mulai dengan 1! = 1, lalu 2! = 2, 3! = 6, 4! = 24, 5! = 120. Jadi, angka selanjutnya adalah 6! yang artinya 1 x 2 x 3 x 4 x 5 x 6 = 720. Bayangkan kamu menyusun balok: tiap langkah, jumlahnya dikalikan dengan angka yang naik satu per satu. Jadi, jawabannya adalah 720."
+    },
+    {
+      "id": 62,
       "category": "Huruf Hilang",
-      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, E, K, S, ?, Z",
-      "options": ["T", "U", "W", "Y"],
-      "correctAnswer": 4,
-      "explanation": "Pola adalah penggandaan indeks posisi huruf: 1×1, 2×2, 3×3, 4×4. Huruf ke-25 adalah Y. Jawaban: Y."
+      "question": "Tentukan huruf yang hilang dalam urutan: A, D, H, M, S, ?",
+      "options": [
+        "Z",
+        "Y",
+        "X",
+        "W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mari kita lihat posisi hurufnya: A (1), D (4), H (8), M (13), S (19). Perhatikan, dari A ke D kita menambahkan 3, dari D ke H menambahkan 4, dari H ke M menambahkan 5, dan dari M ke S menambahkan 6. Jadi, langkah selanjutnya adalah menambahkan 7 ke 19, yang menghasilkan 26. Huruf ke-26 dalam alfabet adalah Z. Jadi, jawabannya adalah Z."
+    },
+    {
+      "id": 63,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan: ♠, ♣, ♥, ♦, ♠, ♣, ♥, ?",
+      "options": [
+        "♦",
+        "♠",
+        "♣",
+        "♥"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Perhatikan urutannya: simbol pertama adalah ♠, kedua ♣, ketiga ♥, keempat ♦. Pola ini kemudian diulang: kelima ♠, keenam ♣, ketujuh ♥. Karena pola berulang empat simbol, simbol berikutnya haruslah yang keempat, yaitu ♦. Jadi, jawabannya adalah ♦."
+    },
+    {
+      "id": 64,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, X3, V6, T10, ?, P21",
+      "options": [
+        "R15",
+        "R16",
+        "Q15",
+        "Q16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mari kita perhatikan dua pola secara bersamaan. Untuk huruf: Z, X, V, T, ?; huruf-huruf ini mundur 2 posisi setiap kali (Z = 26, X = 24, V = 22, T = 20), sehingga huruf berikutnya adalah 20 - 2 = 18, yaitu R. Untuk angka: 1, 3, 6, 10, ?, 21; selisihnya adalah 2, 3, 4, dan selanjutnya harus 5 (karena 2, 3, 4, 5, 6 membentuk pola bilangan bertambah 1). Jadi, 10 + 5 = 15, dan setelah itu 15 + 6 = 21. Jadi, kombinasi yang hilang adalah R15."
+    },
+    {
+      "id": 65,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 1, 3, 7, 15, 31, ?",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "65"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deret ini mengikuti pola 2ⁿ - 1. Artinya: 2¹ - 1 = 1, 2² - 1 = 3, 2³ - 1 = 7, 2⁴ - 1 = 15, 2⁵ - 1 = 31, sehingga angka selanjutnya adalah 2⁶ - 1 = 64 - 1 = 63. Bayangkan kamu menggandakan angka dan mengurangi satu setiap kali. Maka jawabannya adalah 63."
+    },
+    {
+      "id": 66,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: B, F, K, Q, ?",
+      "options": [
+        "U",
+        "V",
+        "W",
+        "X"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lihat posisi huruf: B (2), F (6), K (11), Q (17). Perbedaannya adalah +4, +5, dan +6. Langkah selanjutnya adalah menambahkan 7 ke 17, yaitu 17 + 7 = 24. Huruf ke-24 adalah X. Jadi, jawabannya adalah X."
+    },
+    {
+      "id": 67,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: D5, H9, L15, ?, T33",
+      "options": [
+        "P23",
+        "Q23",
+        "R23",
+        "S23"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Untuk huruf: D, H, L, ?, T. Huruf-huruf ini bertambah 4 posisi tiap langkah (D ke H, H ke L, L ke P, P ke T). Jadi, huruf yang hilang adalah P. Untuk angka: 5, 9, 15, ?, 33. Selisih antar angka adalah 4, 6, 8, dan 10. Setelah 15, tambahkan 8 untuk mendapatkan 23, lalu 23 + 10 = 33. Jadi, kombinasi yang hilang adalah P23."
+    },
+    {
+      "id": 68,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam deret: 2, 3, 5, 8, 12, 17, ?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Perhatikan selisih antar angka: 3-2 = 1, 5-3 = 2, 8-5 = 3, 12-8 = 4, 17-12 = 5. Jadi, selisih berikutnya harus 6. Maka, 17 + 6 = 23. Bayangkan kamu menambahkan satu mainan lebih banyak di setiap kotak. Maka, jawabannya adalah 23."
+    },
+    {
+      "id": 69,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan: B, F, K, Q, ?",
+      "options": [
+        "U",
+        "V",
+        "W",
+        "X"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lihat lagi urutannya: B (2), F (6), K (11), Q (17). Perbedaan hurufnya adalah +4, +5, +6. Jadi, langkah selanjutnya adalah menambahkan 7 ke 17, menghasilkan 24. Huruf ke-24 adalah X. Jadi, jawabannya adalah X."
+    },
+    {
+      "id": 70,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: M12, K10, I8, ?, E4",
+      "options": [
+        "G6",
+        "H6",
+        "I6",
+        "J6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Perhatikan urutan huruf: M, K, I, ?, E. Huruf-huruf tersebut menurun dua posisi setiap kali (M ke K, K ke I, sehingga I ke G, lalu G ke E). Untuk angka: 12, 10, 8, ?, 4; setiap angka berkurang 2. Jadi, setelah 8, kita dapatkan 6, kemudian 6 - 2 = 4. Maka, kombinasi yang hilang adalah G6."
     }
   ]
 }
