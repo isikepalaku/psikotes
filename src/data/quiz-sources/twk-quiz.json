@@ -1,0 +1,560 @@
+{
+  "id": "polri_personality_test",
+  "title": "Tes Kepribadian",
+  "timeLimit": 1800,
+  "icon": "ShieldCheck",
+  "color": "blue",
+  "description": "Tes ini bertujuan untuk menilai kepribadian calon perwira Polri melalui serangkaian pernyataan yang mengukur kepemimpinan, kedisiplinan, integritas, kerja sama, dan pengendalian diri. Peserta diminta untuk menilai pernyataan berdasarkan tingkat kesetujuan mereka.",
+  "questions": [
+    {
+      "id": 1,
+      "category": "Kepribadian",
+      "trait": "Kerja Sama",
+      "isNegative": true,
+      "question": "Saya lebih suka bekerja sendiri daripada bekerja dalam kelompok.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Tidak ada jawaban benar atau salah. Pernyataan ini mengukur preferensi kerja individu."
+    },
+    {
+      "id": 2,
+      "category": "Kepribadian",
+      "trait": "Pengendalian Diri",
+      "isNegative": false,
+      "question": "Saya tetap tenang dan tidak mudah tersulut emosi ketika menghadapi provokasi.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Pernyataan ini mengukur kemampuan pengendalian diri dan kestabilan emosi."
+    },
+    {
+      "id": 3,
+      "category": "Kepribadian",
+      "trait": "Kedisiplinan",
+      "isNegative": false,
+      "question": "Ketika ada aturan yang menurut saya kurang masuk akal, saya tetap mengikutinya dengan penuh tanggung jawab.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Tes ini mengukur tingkat kepatuhan dan disiplin terhadap aturan."
+    },
+    {
+      "id": 4,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Saya mudah beradaptasi dalam lingkungan dan situasi yang baru.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai fleksibilitas dan kemampuan seseorang dalam menghadapi perubahan."
+    },
+    {
+      "id": 5,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": true,
+      "question": "Saya lebih suka mendengar perintah daripada mengambil inisiatif dalam suatu tugas.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Pernyataan ini mengukur kecenderungan seseorang dalam kepemimpinan atau mengikuti arahan."
+    },
+    {
+      "id": 6,
+      "category": "Kepribadian",
+      "trait": "Pengendalian Diri",
+      "isNegative": false,
+      "question": "Saya tetap tenang dan berpikir rasional saat menghadapi situasi darurat.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Tes ini mengukur kecerdasan emosional dan kemampuan mengambil keputusan dalam tekanan."
+    },
+    {
+      "id": 7,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Saya lebih suka menghadapi tantangan baru daripada tetap dalam rutinitas yang sama.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Pernyataan ini mengukur keberanian menghadapi tantangan dan keinginan untuk berkembang."
+    },
+    {
+      "id": 8,
+      "category": "Kepribadian",
+      "trait": "Integritas",
+      "isNegative": false,
+      "question": "Saya selalu berusaha menepati janji meskipun ada hal yang menyulitkan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai komitmen dan tanggung jawab seseorang terhadap janji dan tugas."
+    },
+    {
+      "id": 9,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Saya lebih memilih untuk bertindak cepat dalam mengambil keputusan dibandingkan menunggu instruksi lebih lanjut.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat inisiatif dan kemandirian dalam mengambil keputusan."
+    },
+    {
+      "id": 10,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": true,
+      "question": "Saya merasa lebih nyaman ketika mengikuti perintah daripada memimpin kelompok.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Tes ini mengukur kecenderungan seseorang dalam peran kepemimpinan atau pengikut."
+    },
+    {
+      "id": 11,
+      "category": "Kepribadian",
+      "trait": "Ketegasan",
+      "isNegative": false,
+      "question": "Dalam situasi yang mendesak, saya tidak ragu untuk mengambil keputusan meskipun tidak memiliki informasi yang lengkap.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keberanian dalam mengambil keputusan dengan informasi terbatas, sesuai dengan peran perwira kepolisian."
+    },
+    {
+      "id": 12,
+      "category": "Kepribadian",
+      "trait": "Disiplin",
+      "isNegative": false,
+      "question": "Saya selalu datang tepat waktu, meskipun tidak ada konsekuensi langsung jika saya terlambat.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kedisiplinan intrinsik seseorang tanpa bergantung pada hukuman eksternal."
+    },
+    {
+      "id": 13,
+      "category": "Kepribadian",
+      "trait": "Tanggung Jawab",
+      "isNegative": true,
+      "question": "Jika tugas yang diberikan kepada saya terlalu sulit, saya lebih memilih untuk meminta orang lain menggantikan saya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kemampuan bertahan dalam menghadapi tantangan tanpa mudah menyerah."
+    },
+    {
+      "id": 14,
+      "category": "Kepribadian",
+      "trait": "Integritas",
+      "isNegative": true,
+      "question": "Selama tidak ada yang mengetahui, saya merasa tidak masalah jika saya sedikit melanggar aturan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai prinsip moral dan kepatuhan terhadap aturan meskipun tidak diawasi."
+    },
+    {
+      "id": 15,
+      "category": "Kepribadian",
+      "trait": "Pengendalian Emosi",
+      "isNegative": true,
+      "question": "Jika seseorang menghina saya, saya merasa perlu untuk segera membalasnya agar tidak dianggap lemah.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kemampuan mengendalikan diri dalam situasi provokatif."
+    },
+    {
+      "id": 16,
+      "category": "Kepribadian",
+      "trait": "Keberanian",
+      "isNegative": false,
+      "question": "Saya merasa nyaman berada di garis depan dalam situasi yang berisiko tinggi.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan dalam menghadapi risiko dan tanggung jawab sebagai perwira kepolisian."
+    },
+    {
+      "id": 17,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Jika tim saya mengalami kebingungan dalam mengambil keputusan, saya akan segera mengambil alih dan memberi arahan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan seseorang dalam mengambil peran kepemimpinan saat dibutuhkan."
+    },
+    {
+      "id": 18,
+      "category": "Kepribadian",
+      "trait": "Empati",
+      "isNegative": true,
+      "question": "Saya merasa tidak perlu terlalu peduli terhadap perasaan orang lain selama saya tetap profesional dalam pekerjaan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keseimbangan antara profesionalisme dan kepedulian terhadap orang lain."
+    },
+    {
+      "id": 19,
+      "category": "Kepribadian",
+      "trait": "Daya Tahan Stres",
+      "isNegative": false,
+      "question": "Saya tetap bisa berkonsentrasi dan berpikir jernih meskipun berada di bawah tekanan tinggi.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai ketahanan mental dan kemampuan berpikir di bawah tekanan."
+    },
+    {
+      "id": 20,
+      "category": "Kepribadian",
+      "trait": "Kejujuran",
+      "isNegative": true,
+      "question": "Dalam kondisi tertentu, saya percaya bahwa berbohong bisa menjadi solusi terbaik.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai komitmen terhadap kejujuran dalam situasi yang menantang."
+    },
+    {
+      "id": 21,
+      "category": "Kepribadian",
+      "trait": "Ketekunan",
+      "isNegative": false,
+      "question": "Saya tidak mudah menyerah, meskipun menghadapi tugas yang sangat sulit.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai ketekunan dalam menyelesaikan tugas tanpa mudah menyerah."
+    },
+    {
+      "id": 22,
+      "category": "Kepribadian",
+      "trait": "Kepekaan Sosial",
+      "isNegative": false,
+      "question": "Saya peka terhadap kondisi rekan kerja dan siap membantu jika mereka mengalami kesulitan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kepekaan sosial dan kepedulian terhadap orang lain."
+    },
+    {
+      "id": 23,
+      "category": "Kepribadian",
+      "trait": "Disiplin",
+      "isNegative": true,
+      "question": "Saya merasa aturan dibuat untuk dilanggar jika itu tidak menguntungkan saya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat kepatuhan terhadap aturan tanpa melihat keuntungan pribadi."
+    },
+    {
+      "id": 24,
+      "category": "Kepribadian",
+      "trait": "Pengambilan Keputusan",
+      "isNegative": false,
+      "question": "Saya lebih memilih bertindak cepat dalam mengambil keputusan daripada menunggu arahan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keberanian mengambil keputusan dalam situasi mendesak."
+    },
+    {
+      "id": 25,
+      "category": "Kepribadian",
+      "trait": "Daya Juang",
+      "isNegative": false,
+      "question": "Saya tetap berusaha mencapai target meskipun mengalami banyak kegagalan sebelumnya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai daya juang seseorang dalam menghadapi kegagalan."
+    },
+    {
+      "id": 26,
+      "category": "Kepribadian",
+      "trait": "Pengelolaan Konflik",
+      "isNegative": true,
+      "question": "Saya lebih suka menghindari konflik daripada menyelesaikannya secara langsung.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keberanian dalam menghadapi dan menyelesaikan konflik."
+    },
+    {
+      "id": 27,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Saya nyaman dalam memberikan arahan kepada orang lain.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan seseorang untuk memimpin."
+    },
+    {
+      "id": 28,
+      "category": "Kepribadian",
+      "trait": "Kehati-hatian",
+      "isNegative": true,
+      "question": "Saya sering terburu-buru dalam mengambil keputusan tanpa mempertimbangkan risiko dengan matang.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kehati-hatian dalam mengambil keputusan."
+    },
+    {
+      "id": 29,
+      "category": "Kepribadian",
+      "trait": "Tanggung Jawab",
+      "isNegative": false,
+      "question": "Saya selalu menyelesaikan tugas tepat waktu tanpa harus diingatkan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tanggung jawab dan disiplin dalam menjalankan tugas."
+    },
+    {
+      "id": 30,
+      "category": "Kepribadian",
+      "trait": "Pengendalian Diri",
+      "isNegative": true,
+      "question": "Saya sering kehilangan kendali ketika menghadapi situasi yang penuh tekanan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kemampuan seseorang dalam mengendalikan emosi di situasi sulit."
+    },
+    {
+      "id": 31,
+      "category": "Kepribadian",
+      "trait": "Kepedulian",
+      "isNegative": false,
+      "question": "Saya selalu berusaha memahami situasi dan perasaan orang lain sebelum bertindak.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai empati dan kepedulian terhadap sesama."
+    },
+    {
+      "id": 32,
+      "category": "Kepribadian",
+      "trait": "Keteguhan Prinsip",
+      "isNegative": true,
+      "question": "Saya sering berubah pendapat hanya untuk menyenangkan orang lain.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keteguhan seseorang dalam mempertahankan prinsip yang diyakininya."
+    },
+    {
+      "id": 33,
+      "category": "Kepribadian",
+      "trait": "Kejujuran",
+      "isNegative": false,
+      "question": "Saya selalu mengatakan yang sebenarnya, meskipun itu berisiko bagi saya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai integritas dan kejujuran seseorang."
+    },
+    {
+      "id": 34,
+      "category": "Kepribadian",
+      "trait": "Kesiapan Mental",
+      "isNegative": false,
+      "question": "Saya tetap tenang dalam menghadapi situasi yang tidak terduga.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan mental dan kestabilan emosi seseorang."
+    },
+    {
+      "id": 35,
+      "category": "Kepribadian",
+      "trait": "Fokus",
+      "isNegative": true,
+      "question": "Saya sering terganggu dan sulit berkonsentrasi saat mengerjakan tugas.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kemampuan fokus dan konsentrasi seseorang."
+    },
+    {
+      "id": 36,
+      "category": "Kepribadian",
+      "trait": "Ketegasan",
+      "isNegative": false,
+      "question": "Saya tidak takut untuk menyampaikan pendapat saya, meskipun berbeda dengan atasan atau kelompok.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keberanian dalam mengemukakan pendapat meskipun menghadapi tekanan."
+    },
+    {
+      "id": 37,
+      "category": "Kepribadian",
+      "trait": "Kemandirian",
+      "isNegative": true,
+      "question": "Saya lebih suka menunggu instruksi daripada mengambil inisiatif sendiri.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai apakah peserta lebih cenderung pasif atau aktif dalam mengambil tindakan."
+    },
+    {
+      "id": 38,
+      "category": "Kepribadian",
+      "trait": "Ketahanan Mental",
+      "isNegative": false,
+      "question": "Saya mampu tetap berpikir jernih meskipun mengalami tekanan tinggi dan kelelahan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kemampuan mengelola stres dalam situasi sulit."
+    },
+    {
+      "id": 39,
+      "category": "Kepribadian",
+      "trait": "Kepedulian",
+      "isNegative": true,
+      "question": "Saya merasa tugas utama saya adalah menyelesaikan pekerjaan sendiri, tanpa perlu terlalu peduli dengan masalah rekan kerja.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai seberapa peduli seseorang terhadap lingkungan kerja dan tim."
+    },
+    {
+      "id": 40,
+      "category": "Kepribadian",
+      "trait": "Keberanian",
+      "isNegative": false,
+      "question": "Saya tetap berani dan tidak ragu saat menghadapi situasi yang berisiko tinggi.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan mental seseorang dalam menghadapi situasi berbahaya."
+    },
+    {
+      "id": 41,
+      "category": "Kepribadian",
+      "trait": "Kesabaran",
+      "isNegative": true,
+      "question": "Saya mudah kehilangan kesabaran ketika sesuatu tidak berjalan sesuai keinginan saya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat kesabaran dan pengendalian emosi seseorang."
+    },
+    {
+      "id": 42,
+      "category": "Kepribadian",
+      "trait": "Disiplin",
+      "isNegative": false,
+      "question": "Saya tetap menjalankan kewajiban saya dengan penuh tanggung jawab meskipun tidak ada pengawasan langsung.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kedisiplinan seseorang dalam bekerja tanpa adanya pengawasan ketat."
+    },
+    {
+      "id": 43,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": true,
+      "question": "Saya lebih suka berada di bawah perintah daripada harus mengambil keputusan sendiri.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai apakah seseorang memiliki kecenderungan kepemimpinan atau lebih suka mengikuti perintah."
+    },
+    {
+      "id": 44,
+      "category": "Kepribadian",
+      "trait": "Pengambilan Risiko",
+      "isNegative": false,
+      "question": "Saya bersedia mengambil keputusan cepat dalam situasi mendesak meskipun tidak memiliki semua informasi.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan seseorang dalam mengambil keputusan berisiko tinggi."
+    },
+    {
+      "id": 45,
+      "category": "Kepribadian",
+      "trait": "Tanggung Jawab",
+      "isNegative": true,
+      "question": "Jika saya membuat kesalahan, saya lebih suka mencari alasan daripada mengakuinya secara langsung.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat tanggung jawab seseorang dalam menghadapi kesalahan yang dibuat."
+    },
+    {
+      "id": 46,
+      "category": "Kepribadian",
+      "trait": "Kejujuran",
+      "isNegative": true,
+      "question": "Jika saya dapat mengambil keuntungan kecil tanpa ada yang tahu, saya tidak akan merasa bersalah.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat kejujuran dan integritas seseorang dalam situasi tanpa pengawasan."
+    },
+    {
+      "id": 47,
+      "category": "Kepribadian",
+      "trait": "Ketekunan",
+      "isNegative": false,
+      "question": "Saya tidak mudah menyerah bahkan jika tugas yang diberikan terasa sulit atau melelahkan.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kegigihan seseorang dalam menyelesaikan tugas hingga akhir."
+    },
+    {
+      "id": 48,
+      "category": "Kepribadian",
+      "trait": "Kedisiplinan",
+      "isNegative": true,
+      "question": "Saya cenderung mengabaikan aturan jika saya merasa itu tidak terlalu penting.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kedisiplinan dan kepatuhan terhadap aturan, bahkan jika dianggap kurang penting."
+    },
+    {
+      "id": 49,
+      "category": "Kepribadian",
+      "trait": "Empati",
+      "isNegative": false,
+      "question": "Saya selalu berusaha memahami perasaan orang lain sebelum bertindak atau berbicara.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai empati seseorang dalam interaksi sosial dan lingkungan kerja."
+    },
+    {
+      "id": 50,
+      "category": "Kepribadian",
+      "trait": "Pengambilan Risiko",
+      "isNegative": true,
+      "question": "Saya lebih suka menghindari keputusan sulit agar tidak disalahkan jika terjadi masalah.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai keberanian seseorang dalam mengambil tanggung jawab atas keputusan sulit."
+    },
+    {
+      "id": 51,
+      "category": "Kepribadian",
+      "trait": "Daya Tahan Stres",
+      "isNegative": false,
+      "question": "Saya tetap tenang dan berpikir jernih meskipun berada dalam tekanan atau kondisi darurat.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai ketahanan emosional seseorang dalam menghadapi tekanan kerja yang tinggi."
+    },
+    {
+      "id": 52,
+      "category": "Kepribadian",
+      "trait": "Kepemimpinan",
+      "isNegative": false,
+      "question": "Saya merasa nyaman saat harus memimpin sekelompok orang dalam menyelesaikan tugas.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai kesiapan seseorang untuk mengambil peran kepemimpinan dalam situasi kerja."
+    },
+    {
+      "id": 53,
+      "category": "Kepribadian",
+      "trait": "Ketegasan",
+      "isNegative": true,
+      "question": "Saya sering merasa sulit untuk menolak permintaan orang lain, bahkan jika itu merugikan saya.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai ketegasan seseorang dalam menjaga keseimbangan antara kerja dan kepentingan pribadi."
+    },
+    {
+      "id": 54,
+      "category": "Kepribadian",
+      "trait": "Kerja Sama",
+      "isNegative": false,
+      "question": "Saya lebih suka bekerja dalam tim daripada bekerja sendiri karena bisa saling membantu.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai preferensi seseorang dalam bekerja secara individu atau dalam tim."
+    },
+    {
+      "id": 55,
+      "category": "Kepribadian",
+      "trait": "Tanggung Jawab",
+      "isNegative": true,
+      "question": "Jika saya gagal dalam suatu tugas, saya cenderung menyalahkan faktor eksternal dibandingkan mengakui kesalahan saya sendiri.",
+      "options": ["Sangat Setuju", "Setuju", "Ragu-ragu", "Tidak Setuju", "Sangat Tidak Setuju"],
+      "correctAnswer": null,
+      "explanation": "Menilai tingkat tanggung jawab seseorang dalam menghadapi kegagalan dan mengambil pelajaran darinya."
+    }
+  ]
+}

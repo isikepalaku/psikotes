@@ -1,0 +1,490 @@
+{
+  "id": "polri_cermat_test",
+  "title": "Tes Kecermatan",
+  "timeLimit": 1800,
+  "icon": "Search",
+  "color": "green",
+  "description": "Tes ini bertujuan untuk mengukur kecermatan, logika, dan konsistensi calon perwira Polri dalam mengenali pola angka, huruf, simbol, dan kombinasi. Soal dirancang untuk menilai kemampuan berpikir cepat dan tepat.",
+  "questions": [
+    {
+      "id": 1,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 5, 10, 15, ?, 25",
+      "options": ["18", "20", "22", "24"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 20, karena pola adalah penjumlahan 5 pada setiap langkah."
+    },
+    {
+      "id": 2,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, C, E, ?, I",
+      "options": ["F", "G", "H", "K"],
+      "correctAnswer": 2,
+      "explanation": "Huruf yang hilang adalah G, karena pola adalah lompatan dua huruf."
+    },
+    {
+      "id": 3,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♥, ★, ♥, ?",
+      "options": ["★", "♥", "♦", "♣"],
+      "correctAnswer": 1,
+      "explanation": "Simbol yang hilang adalah ★, karena pola simbol bergantian antara ★ dan ♥."
+    },
+    {
+      "id": 4,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 4, 8, 16, ?",
+      "options": ["20", "24", "32", "64"],
+      "correctAnswer": 3,
+      "explanation": "Angka yang hilang adalah 32, karena pola adalah penggandaan dua kali lipat."
+    },
+    {
+      "id": 5,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, V, ?, R",
+      "options": ["S", "T", "U", "W"],
+      "correctAnswer": 4,
+      "explanation": "Huruf yang hilang adalah T, karena pola adalah pengurangan dua huruf."
+    },
+    {
+      "id": 6,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♠, ♦, ?, ♣",
+      "options": ["♦", "♠", "♥", "♣"],
+      "correctAnswer": 3,
+      "explanation": "Simbol yang hilang adalah ♥, karena pola adalah rotasi ♣ → ♠ → ♦ → ♥."
+    },
+    {
+      "id": 7,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A1, B2, C3, ?, E5",
+      "options": ["C4", "D4", "D3", "E4"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah D4, karena pola adalah urutan abjad dan angka bertambah satu."
+    },
+    {
+      "id": 8,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 100, 90, 80, ?, 60",
+      "options": ["50", "70", "75", "65"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 70, karena pola adalah pengurangan 10 setiap langkah."
+    },
+    {
+      "id": 9,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: M, O, Q, ?, U",
+      "options": ["R", "S", "T", "V"],
+      "correctAnswer": 3,
+      "explanation": "Huruf yang hilang adalah S, karena pola adalah lompatan dua huruf."
+    },
+    {
+      "id": 10,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♦, ♥, ?, ♥",
+      "options": ["♦", "♠", "♣", "★"],
+      "correctAnswer": 1,
+      "explanation": "Simbol yang hilang adalah ♦, karena pola bergantian antara ♥ dan ♦."
+    },
+    {
+      "id": 11,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 1, 3, 6, 10, ?, 21",
+      "options": ["14", "15", "16", "18"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 15, karena pola adalah penjumlahan bertahap: +2, +3, +4, +5, ..."
+    },
+    {
+      "id": 12,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: B, D, G, K, ?, U",
+      "options": ["O", "Q", "P", "R"],
+      "correctAnswer": 1,
+      "explanation": "Huruf yang hilang adalah Q, karena pola adalah penjumlahan bertahap: +2, +3, +4, +5."
+    },
+    {
+      "id": 13,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♠, ♦, ♥, ♣, ?, ♠",
+      "options": ["♥", "♦", "♣", "★"],
+      "correctAnswer": 3,
+      "explanation": "Simbol yang hilang adalah ♣, karena pola berulang: ♠ → ♦ → ♥ → ♣."
+    },
+    {
+      "id": 14,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, B4, C6, ?, E10",
+      "options": ["D7", "D8", "D9", "D12"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah D8, karena pola adalah huruf bertambah satu, angka bertambah dua."
+    },
+    {
+      "id": 15,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 243, 81, 27, 9, ?, 1",
+      "options": ["6", "3", "5", "7"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 3, karena pola adalah pembagian 3."
+    },
+    {
+      "id": 16,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: P, R, U, Y, ?, G",
+      "options": ["A", "B", "C", "D"],
+      "correctAnswer": 1,
+      "explanation": "Huruf yang hilang adalah A, karena pola adalah lompatan bertahap: +2, +3, +4, +5."
+    },
+    {
+      "id": 17,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♠, ♣, ♦, ?, ♥",
+      "options": ["♣", "♦", "♥", "★"],
+      "correctAnswer": 2,
+      "explanation": "Simbol yang hilang adalah ♦, karena pola berulang: ♣ → ♠ → ♣ → ♦."
+    },
+    {
+      "id": 18,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, Y2, X4, W8, ?",
+      "options": ["V10", "V12", "V16", "V14"],
+      "correctAnswer": 3,
+      "explanation": "Kombinasi yang hilang adalah V16, karena pola huruf mundur satu, angka dikalikan dua."
+    },
+    {
+      "id": 19,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 1, 4, 9, 16, ?, 36",
+      "options": ["20", "25", "30", "34"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 25, karena pola adalah bilangan kuadrat: 1², 2², 3², ..."
+    },
+    {
+      "id": 20,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, Z, Y, B, ?, X",
+      "options": ["C", "W", "D", "V"],
+      "correctAnswer": 1,
+      "explanation": "Huruf yang hilang adalah C, karena pola zig-zag: A → Z → Y → B → C."
+    },
+    {
+      "id": 21,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♦, ♥, ♣, ♠, ?, ♦",
+      "options": ["★", "♥", "♣", "♠"],
+      "correctAnswer": 4,
+      "explanation": "Simbol yang hilang adalah ♠, karena pola berulang setelah satu putaran."
+    },
+    {
+      "id": 22,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A1, C4, E9, ?, I25",
+      "options": ["G12", "G16", "H16", "H18"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah G16, karena pola huruf lompat dua, angka adalah kuadrat: 1², 2², 3²."
+    },
+    {
+      "id": 23,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 100, 50, 25, ?, 6.25",
+      "options": ["10", "12.5", "15", "20"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 12.5, karena pola adalah pembagian dua."
+    },
+    {
+      "id": 24,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: M, K, J, H, ?, E",
+      "options": ["G", "F", "I", "D"],
+      "correctAnswer": 2,
+      "explanation": "Huruf yang hilang adalah F, karena pola mundur bertahap: -2, -1, -2."
+    },
+    {
+      "id": 25,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♠, ♦, ?, ♣",
+      "options": ["♦", "♠", "★", "♥"],
+      "correctAnswer": 4,
+      "explanation": "Simbol yang hilang adalah ♥, karena pola rotasi berulang."
+    },
+    {
+      "id": 26,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: P2, R4, T8, ?, X32",
+      "options": ["V10", "V12", "V16", "V20"],
+      "correctAnswer": 3,
+      "explanation": "Kombinasi yang hilang adalah V16, karena huruf lompat dua, angka dikali dua."
+    },
+    {
+      "id": 27,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 6, 18, 54, ?, 486",
+      "options": ["108", "162", "216", "324"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 162, karena pola adalah perkalian tiga."
+    },
+    {
+      "id": 28,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, W, T, ?, N",
+      "options": ["Q", "P", "R", "O"],
+      "correctAnswer": 4,
+      "explanation": "Huruf yang hilang adalah Q, karena pola mundur bertahap."
+    },
+    {
+      "id": 29,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ★, ♠, ?, ♦",
+      "options": ["♣", "♥", "★", "♠"],
+      "correctAnswer": 1,
+      "explanation": "Simbol yang hilang adalah ♣, karena pola adalah rotasi."
+    },
+    {
+      "id": 30,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: B3, D6, F12, ?, J48",
+      "options": ["H16", "H24", "H36", "H48"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah H24, karena huruf lompat dua, angka dikali dua."
+    },
+    {
+      "id": 31,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 8, 12, 18, 27, ?, 54",
+      "options": ["34", "38", "42", "45"],
+      "correctAnswer": 4,
+      "explanation": "Angka yang hilang adalah 45, karena pola adalah penjumlahan bilangan prima bertahap: +4, +6, +9, +18."
+    },
+    {
+      "id": 32,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: C, F, J, O, ?, Z",
+      "options": ["R", "S", "T", "U"],
+      "correctAnswer": 3,
+      "explanation": "Huruf yang hilang adalah T, karena pola adalah penjumlahan bertahap: +3, +4, +5, +6."
+    },
+    {
+      "id": 33,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♦, ♠, ?, ♦, ♥",
+      "options": ["♣", "♠", "♦", "★"],
+      "correctAnswer": 1,
+      "explanation": "Simbol yang hilang adalah ♣, karena pola adalah rotasi: ♥ → ♦ → ♠ → ♣."
+    },
+    {
+      "id": 34,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A3, C6, E12, ?, I48",
+      "options": ["G18", "G24", "H24", "H36"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah G24, karena huruf lompat dua dan angka dikalikan dua bertahap."
+    },
+    {
+      "id": 35,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 121, 144, 169, 196, ?, 256",
+      "options": ["200", "225", "235", "240"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 225, karena pola adalah bilangan kuadrat: 11², 12², 13², ..."
+    },
+    {
+      "id": 36,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, T, ?, K",
+      "options": ["O", "P", "Q", "R"],
+      "correctAnswer": 1,
+      "explanation": "Huruf yang hilang adalah O, karena pola adalah pengurangan bertahap: -2, -4, -6, ..."
+    },
+    {
+      "id": 37,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♣, ♥, ?, ♠, ★",
+      "options": ["♦", "♣", "♥", "♠"],
+      "correctAnswer": 1,
+      "explanation": "Simbol yang hilang adalah ♦, karena pola adalah rotasi ★ → ♣ → ♥ → ♦."
+    },
+    {
+      "id": 38,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, Y4, X9, ?, V25",
+      "options": ["W12", "W16", "W18", "W20"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah W16, karena huruf mundur satu dan angka adalah kuadrat bertahap: 1², 2², 3²."
+    },
+    {
+      "id": 39,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 3, 6, 18, 108, ?, 1296",
+      "options": ["216", "432", "648", "864"],
+      "correctAnswer": 3,
+      "explanation": "Angka yang hilang adalah 648, karena pola adalah kelipatan bertahap: ×2, ×3, ×6, ..."
+    },
+    {
+      "id": 40,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, D, H, M, ?, Z",
+      "options": ["P", "Q", "R", "S"],
+      "correctAnswer": 3,
+      "explanation": "Huruf yang hilang adalah R, karena pola adalah penjumlahan bertahap: +3, +4, +5, +6."
+    },
+    {
+      "id": 41,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♥, ♠, ♦, ?, ♠",
+      "options": ["♥", "♣", "♦", "★"],
+      "correctAnswer": 2,
+      "explanation": "Simbol yang hilang adalah ♣, karena pola: ♥ → ♥ → ♠ → ♦ → ♣."
+    },
+    {
+      "id": 42,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, C6, E12, G20, ?",
+      "options": ["I30", "I32", "I36", "I40"],
+      "correctAnswer": 4,
+      "explanation": "Kombinasi yang hilang adalah I40, karena huruf lompat dua dan angka bertambah dengan kelipatan genap."
+    },
+    {
+      "id": 43,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 8, 32, 128, ?, 2048",
+      "options": ["256", "512", "1024", "2048"],
+      "correctAnswer": 3,
+      "explanation": "Angka yang hilang adalah 1024, karena pola adalah kelipatan empat: ×4."
+    },
+    {
+      "id": 44,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: Z, X, V, T, ?, P",
+      "options": ["R", "Q", "O", "S"],
+      "correctAnswer": 1,
+      "explanation": "Huruf yang hilang adalah R, karena pola mundur bertahap: -2."
+    },
+    {
+      "id": 45,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♠, ♠, ♥, ♥, ?, ♣",
+      "options": ["♣", "♦", "♠", "★"],
+      "correctAnswer": 2,
+      "explanation": "Simbol yang hilang adalah ♦, karena pola pengulangan dua kali tiap simbol."
+    },
+    {
+      "id": 46,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: B1, D4, F9, ?, J25",
+      "options": ["H12", "H16", "H20", "H18"],
+      "correctAnswer": 2,
+      "explanation": "Kombinasi yang hilang adalah H16, karena huruf lompat dua dan angka adalah bilangan kuadrat."
+    },
+    {
+      "id": 47,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 50, 45, 40, ?, 30",
+      "options": ["38", "35", "36", "34"],
+      "correctAnswer": 2,
+      "explanation": "Angka yang hilang adalah 35, karena pola pengurangan 5 bertahap."
+    },
+    {
+      "id": 48,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, E, I, ?, U",
+      "options": ["M", "O", "Q", "S"],
+      "correctAnswer": 2,
+      "explanation": "Huruf yang hilang adalah O, karena pola adalah vokal."
+    },
+    {
+      "id": 49,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♣, ♥, ♠, ♦, ?, ♥",
+      "options": ["♠", "♣", "♦", "★"],
+      "correctAnswer": 2,
+      "explanation": "Simbol yang hilang adalah ♣, karena pola berulang rotasi."
+    },
+    {
+      "id": 50,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A3, C6, E12, G24, ?",
+      "options": ["I30", "I36", "I48", "I40"],
+      "correctAnswer": 3,
+      "explanation": "Kombinasi yang hilang adalah I48, karena huruf lompat dua dan angka dikalikan dua bertahap."
+    },
+    {
+      "id": 51,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 2, 6, 15, 31, ?, 98",
+      "options": ["56", "57", "62", "63"],
+      "correctAnswer": 2,
+      "explanation": "Cari pola penjumlahan bertahap: 2 → 6 (+4), 6 → 15 (+9), 15 → 31 (+16). Pola adalah bilangan kuadrat: 2², 3², 4². Tambahkan 5² = 25 ke 31. Jawaban: 57."
+    },
+    {
+      "id": 52,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: B, F, M, W, ?, Z",
+      "options": ["J", "K", "L", "P"],
+      "correctAnswer": 3,
+      "explanation": "Lihat posisi huruf di alfabet: B(2), F(6), M(13), W(23). Pola adalah penjumlahan bertahap: +4, +7, +10, +13. Tambahkan 13 ke posisi W (23): 23 + 13 = 36 (huruf ke-36 = L). Jawaban: L."
+    },
+    {
+      "id": 53,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ★, ♥, ♠, ♦, ♣, ?, ♥",
+      "options": ["♠", "♦", "♣", "★"],
+      "correctAnswer": 1,
+      "explanation": "Rotasi simbol secara berulang: ★ → ♥ → ♠ → ♦ → ♣ → ♠. Simbol berikutnya setelah ♣ adalah ♠. Jawaban: ♠."
+    },
+    {
+      "id": 54,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: A2, D6, G12, ?, M30",
+      "options": ["I20", "J18", "J24", "K20"],
+      "correctAnswer": 3,
+      "explanation": "Huruf bertambah tiga: A → D → G → J → M. Angka bertambah kelipatan dua: +2, +4, +6, +12. Jawaban: J24."
+    },
+    {
+      "id": 55,
+      "category": "Angka Hilang",
+      "question": "Tentukan angka yang hilang dalam urutan berikut: 1000, 200, 40, 8, ?, 0.16",
+      "options": ["2.0", "1.6", "1.2", "0.8"],
+      "correctAnswer": 2,
+      "explanation": "Pola adalah pembagian bertahap dengan 5: 1000 ÷ 5 = 200, 200 ÷ 5 = 40, 40 ÷ 5 = 8, 8 ÷ 5 = 1.6. Jawaban: 1.6."
+    },
+    {
+      "id": 56,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, C, G, M, ?, Z",
+      "options": ["R", "P", "S", "T"],
+      "correctAnswer": 3,
+      "explanation": "Pola posisi huruf berdasarkan penggandaan indeks: 1², 2², 3², 4². Huruf ke-19 adalah S. Jawaban: S."
+    },
+    {
+      "id": 57,
+      "category": "Simbol Hilang",
+      "question": "Tentukan simbol yang hilang dalam urutan berikut: ♥, ♥, ♠, ♦, ♦, ♣, ?, ♠",
+      "options": ["♣", "♦", "★", "♥"],
+      "correctAnswer": 1,
+      "explanation": "Pola simbol diulang dua kali sebelum berlanjut: ♥ → ♥ → ♠ → ♦ → ♦ → ♣. Simbol berikutnya adalah ♣. Jawaban: ♣."
+    },
+    {
+      "id": 58,
+      "category": "Kombinasi",
+      "question": "Tentukan kombinasi angka dan huruf yang hilang: Z1, X3, V6, ?, R21",
+      "options": ["T10", "T12", "T15", "T18"],
+      "correctAnswer": 4,
+      "explanation": "Huruf mundur dua: Z → X → V → T → R. Angka bertambah: +2, +3, +6, +9. Jawaban: T18."
+    },
+    {
+      "id": 59,
+      "category": "Angka Hilang",
+      "question": "Berapa angka yang harus menggantikan tanda tanya (?) dalam pola berikut? 3, 12, 60, 360, ?, 2520",
+      "options": ["420", "720", "1260", "2520"],
+      "correctAnswer": 3,
+      "explanation": "Setiap angka dalam pola ini dikalikan bertahap dengan angka yang lebih besar: 3 × 4 = 12, 12 × 5 = 60, 60 × 6 = 360, dan seterusnya. Jadi, angka yang hilang dihitung dengan 360 × 7 = 1260. Jawaban yang benar adalah 1260."
+    },
+    {
+      "id": 60,
+      "category": "Huruf Hilang",
+      "question": "Tentukan huruf yang hilang dalam urutan berikut: A, E, K, S, ?, Z",
+      "options": ["T", "U", "W", "Y"],
+      "correctAnswer": 4,
+      "explanation": "Pola adalah penggandaan indeks posisi huruf: 1×1, 2×2, 3×3, 4×4. Huruf ke-25 adalah Y. Jawaban: Y."
+    }
+  ]
+}

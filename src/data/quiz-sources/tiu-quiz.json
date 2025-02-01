@@ -1,0 +1,1431 @@
+{
+  "id": "verbal_test",
+  "title": "Tes Kecerdasan Umum",
+  "description": "Tes ini menguji kemampuan dalam sinonim, antonim, analogi, pengelompokan kata, deret angka, pola numerik, logika numerik, himpunan dan diagram Venn, serta pemecahan masalah berbasis matematika dasar.",
+  "timeLimit": 1800,
+  "questions": [
+    {
+      "id": 1,
+      "category": "Sinonim",
+      "question": "KAPITAL = ...",
+      "options": ["Modal", "Kapten", "Menara", "Restoran"],
+      "correctAnswer": 0,
+      "explanation": "Kapital berarti modal dalam ekonomi dan keuangan."
+    },
+    {
+      "id": 2,
+      "category": "Sinonim",
+      "question": "DIKOTOMI = ...",
+      "options": ["Kepala Dua", "Dibagi Dua", "Biji Dua", "Berkaki Dua"],
+      "correctAnswer": 1,
+      "explanation": "Dikotomi berarti pembagian menjadi dua bagian yang berlawanan."
+    },
+    {
+      "id": 3,
+      "category": "Sinonim",
+      "question": "GEOTERMAL = ...",
+      "options": ["Panas Bumi", "Suhu Bumi", "Tekanan", "Temperatur"],
+      "correctAnswer": 0,
+      "explanation": "Geotermal berarti energi panas yang berasal dari dalam bumi."
+    },
+    {
+      "id": 4,
+      "category": "Sinonim",
+      "question": "DESKRIPSI = ...",
+      "options": ["Kekurangan air", "Penambahan bahan", "Penjelasan terperinci", "Menceritakan kejadian"],
+      "correctAnswer": 2,
+      "explanation": "Deskripsi adalah uraian atau penjelasan secara rinci."
+    },
+    {
+      "id": 5,
+      "category": "Sinonim",
+      "question": "DEHIDRASI = ...",
+      "options": ["Haus", "Capek", "Kehilangan cairan tubuh", "Proses penyaringan air limbah"],
+      "correctAnswer": 2,
+      "explanation": "Dehidrasi adalah kondisi tubuh kehilangan cairan secara berlebihan."
+    },
+    {
+      "id": 6,
+      "category": "Sinonim",
+      "question": "BONANZA = ...",
+      "options": ["Sumber kekuatan", "Tempat yang indah", "Sumber kemakmuran", "Tanaman yang pendek"],
+      "correctAnswer": 2,
+      "explanation": "Bonanza berarti sumber kemakmuran yang melimpah."
+    },
+    {
+      "id": 7,
+      "category": "Sinonim",
+      "question": "ABRASI = ...",
+      "options": ["Erosi", "Pantai", "Pengikisan", "Intrusi air laut"],
+      "correctAnswer": 2,
+      "explanation": "Abrasi adalah pengikisan tanah atau batuan akibat gesekan air atau angin."
+    },
+    {
+      "id": 8,
+      "category": "Sinonim",
+      "question": "BONAFIDE = ...",
+      "options": ["Mahal", "Bagus", "Dapat dipercaya", "Tertib administrasi"],
+      "correctAnswer": 2,
+      "explanation": "Bonafide berarti dapat dipercaya atau memiliki reputasi baik."
+    },
+    {
+      "id": 9,
+      "category": "Sinonim",
+      "question": "OTODIDAKTIK = ...",
+      "options": ["Pendidikan luar biasa", "Cara belajar siswa aktif", "Maju dengan belajar sendiri", "Siswa yang sangat hebat"],
+      "correctAnswer": 2,
+      "explanation": "Otodidaktik adalah proses belajar secara mandiri tanpa bimbingan formal."
+    },
+    {
+      "id": 10,
+      "category": "Sinonim",
+      "question": "HIPOTENUSA = ...",
+      "options": ["Tujuan", "Prakiraan", "Sisi miring", "Antar pulau"],
+      "correctAnswer": 2,
+      "explanation": "Hipotenusa adalah sisi miring dalam segitiga siku-siku."
+    },
+    {
+      "id": 11,
+      "category": "Antonim",
+      "question": "ABADI >< ...",
+      "options": ["Baru", "Fana", "Lama", "Selamanya"],
+      "correctAnswer": 1,
+      "explanation": "Abadi berarti kekal, antonimnya adalah fana yang berarti tidak kekal."
+    },
+    {
+      "id": 12,
+      "category": "Antonim",
+      "question": "ABSEN >< ...",
+      "options": ["Dosen", "Ada", "Hadir", "Keluar"],
+      "correctAnswer": 2,
+      "explanation": "Absen berarti tidak hadir, antonimnya adalah hadir."
+    },
+    {
+      "id": 13,
+      "category": "Antonim",
+      "question": "ABSOLUTE >< ...",
+      "options": ["Besar sekali", "Mutlak", "Relatif", "Terkadang"],
+      "correctAnswer": 2,
+      "explanation": "Absolute berarti mutlak, antonimnya adalah relatif yang bersifat tidak mutlak."
+    },
+    {
+      "id": 14,
+      "category": "Antonim",
+      "question": "AGRESIF >< ...",
+      "options": ["Menyerang", "Serangan", "Defensif", "Penyerang"],
+      "correctAnswer": 2,
+      "explanation": "Agresif berarti menyerang, antonimnya defensif yang berarti bertahan."
+    },
+    {
+      "id": 21,
+      "category": "Analogi",
+      "question": "TERANG : MATAHARI ≈ PANAS : ...",
+      "options": ["Dingin", "Segar", "Api", "Bintang"],
+      "correctAnswer": 2,
+      "explanation": "Matahari menyebabkan terang, seperti api menyebabkan panas."
+    },
+    {
+      "id": 22,
+      "category": "Analogi",
+      "question": "CANGKUL : PETANI ≈ OSILOSKOP : ...",
+      "options": ["Neurolog", "Arkeolog", "Montir", "Insinyur"],
+      "correctAnswer": 3,
+      "explanation": "Cangkul adalah alat petani, seperti osiloskop adalah alat insinyur."
+    },
+    {
+      "id": 31,
+      "category": "Kelompok Kata",
+      "question": "Mana yang tidak sesuai?",
+      "options": ["Mobil", "Motor", "Bus", "Kapal"],
+      "correctAnswer": 3,
+      "explanation": "Mobil, motor, dan bus adalah kendaraan darat, sedangkan kapal adalah kendaraan laut."
+    },
+    {
+      "id": 32,
+      "category": "Kelompok Kata",
+      "question": "Mana yang tidak sesuai?",
+      "options": ["Mata", "Telinga", "Dada", "Mulut"],
+      "correctAnswer": 2,
+      "explanation": "Mata, telinga, dan mulut adalah bagian wajah, sedangkan dada bukan."
+    },
+    {
+      "id": 33,
+          "category": "Sinonim",
+          "question": "INTERVENSI = ...",
+          "options": ["Campur tangan", "Kesepakatan", "Pelaksanaan", "Permohonan"],
+          "correctAnswer": 0,
+          "explanation": "Intervensi berarti campur tangan dalam suatu urusan atau masalah."
+        },
+        {
+          "id": 34,
+          "category": "Sinonim",
+          "question": "EVOLUSI = ...",
+          "options": ["Perubahan", "Kemunduran", "Penyimpangan", "Kebiasaan"],
+          "correctAnswer": 0,
+          "explanation": "Evolusi berarti perubahan bertahap menuju kondisi yang lebih baik."
+        },
+        {
+          "id": 35,
+          "category": "Antonim",
+          "question": "PROGRESIF >< ...",
+          "options": ["Maju", "Berkembang", "Mundur", "Cepat"],
+          "correctAnswer": 2,
+          "explanation": "Progresif berarti berkembang ke depan, lawannya adalah mundur."
+        },
+        {
+          "id": 36,
+          "category": "Antonim",
+          "question": "EKSPANSIF >< ...",
+          "options": ["Mengecil", "Meningkat", "Meluaskan", "Mengembangkan"],
+          "correctAnswer": 0,
+          "explanation": "Ekspansif berarti meluas, antonimnya adalah mengecil."
+        },
+        {
+          "id": 37,
+          "category": "Analogi",
+          "question": "PILOT : PESAWAT ≈ MASINIS : ...",
+          "options": ["Mobil", "Kereta", "Sepeda", "Kapal"],
+          "correctAnswer": 1,
+          "explanation": "Pilot mengendarai pesawat seperti masinis mengendarai kereta."
+        },
+        {
+          "id": 38,
+          "category": "Analogi",
+          "question": "TINTA : PULPEN ≈ LISTRIK : ...",
+          "options": ["Televisi", "Saklar", "Kabel", "Baterai"],
+          "correctAnswer": 2,
+          "explanation": "Tinta digunakan dalam pulpen seperti listrik mengalir melalui kabel."
+        },
+        {
+          "id": 39,
+          "category": "Kelompok Kata",
+          "question": "Mana yang tidak sesuai?",
+          "options": ["Sepatu", "Sandal", "Kaos kaki", "Topi"],
+          "correctAnswer": 3,
+          "explanation": "Sepatu, sandal, dan kaos kaki adalah alas kaki, sedangkan topi adalah penutup kepala."
+        },
+        {
+          "id": 40,
+          "category": "Kelompok Kata",
+          "question": "Mana yang tidak sesuai?",
+          "options": ["Pisau", "Gunting", "Gergaji", "Palet"],
+          "correctAnswer": 3,
+          "explanation": "Pisau, gunting, dan gergaji adalah alat pemotong, sedangkan palet bukan."
+        },
+        {
+          "id": 41,
+          "category": "Kelompok Kata",
+          "question": "Mana yang tidak sesuai?",
+          "options": ["Alpukat", "Mangga", "Pepaya", "Kangkung"],
+          "correctAnswer": 3,
+          "explanation": "Alpukat, mangga, dan pepaya adalah buah, sedangkan kangkung adalah sayuran."
+        },
+        {
+          "id": 42,
+          "category": "Kelompok Kata",
+          "question": "Mana yang tidak sesuai?",
+          "options": ["Gitar", "Piano", "Biola", "Suling"],
+          "correctAnswer": 3,
+          "explanation": "Gitar, piano, dan biola adalah alat musik petik atau tuts, sedangkan suling adalah alat musik tiup."
+        },
+        {
+          "id": 43,
+              "category": "Sinonim",
+              "question": "DETEKTIF = ...",
+              "options": ["Polisi", "Penyelidik", "Penjaga", "Pengawal"],
+              "correctAnswer": 1,
+              "explanation": "Detektif adalah seseorang yang bertugas menyelidiki suatu kasus atau kejahatan."
+            },
+            {
+              "id": 44,
+              "category": "Sinonim",
+              "question": "FORENSIK = ...",
+              "options": ["Penyidikan", "Analisis", "Dokter", "Hukum"],
+              "correctAnswer": 1,
+              "explanation": "Forensik berkaitan dengan analisis ilmiah terhadap bukti kejahatan."
+            },
+            {
+              "id": 45,
+              "category": "Antonim",
+              "question": "KEJAHATAN >< ...",
+              "options": ["Hukuman", "Ketertiban", "Kebenaran", "Keadilan"],
+              "correctAnswer": 2,
+              "explanation": "Kejahatan adalah tindakan melawan hukum, lawannya adalah kebenaran."
+            },
+            {
+              "id": 46,
+              "category": "Antonim",
+              "question": "PENEGAKAN >< ...",
+              "options": ["Pembiaran", "Peraturan", "Kepastian", "Kekuasaan"],
+              "correctAnswer": 0,
+              "explanation": "Penegakan berarti menerapkan aturan, lawannya adalah pembiaran."
+            },
+            {
+              "id": 47,
+              "category": "Analogi",
+              "question": "SIDIK JARI : IDENTITAS ≈ CCTV : ...",
+              "options": ["Pengawasan", "Pelanggaran", "Keamanan", "Data"],
+              "correctAnswer": 0,
+              "explanation": "Sidik jari digunakan untuk mengidentifikasi seseorang, seperti CCTV digunakan untuk pengawasan."
+            },
+            {
+              "id": 48,
+              "category": "Analogi",
+              "question": "HAKIM : PENGADILAN ≈ POLISI : ...",
+              "options": ["Kantor", "Keamanan", "Kepolisian", "Hukum"],
+              "correctAnswer": 2,
+              "explanation": "Hakim bekerja di pengadilan, seperti polisi bekerja di kepolisian."
+            },
+            {
+              "id": 49,
+              "category": "Kelompok Kata",
+              "question": "Mana yang tidak sesuai?",
+              "options": ["Brigadir", "Jenderal", "Sersan", "Dokter"],
+              "correctAnswer": 3,
+              "explanation": "Brigadir, jenderal, dan sersan adalah pangkat dalam kepolisian, sedangkan dokter bukan."
+            },
+            {
+              "id": 50,
+              "category": "Kelompok Kata",
+              "question": "Mana yang tidak sesuai?",
+              "options": ["Pistol", "Senapan", "Peluru", "Borgol"],
+              "correctAnswer": 3,
+              "explanation": "Pistol, senapan, dan peluru adalah senjata api, sedangkan borgol adalah alat penahanan."
+            },
+            {
+              "id": 51,
+              "category": "Kelompok Kata",
+              "question": "Mana yang tidak sesuai?",
+              "options": ["Kejahatan", "Pelanggaran", "Patroli", "Kriminal"],
+              "correctAnswer": 2,
+              "explanation": "Kejahatan, pelanggaran, dan kriminal berhubungan dengan tindak kejahatan, sedangkan patroli adalah kegiatan pengamanan."
+            },
+            {
+              "id": 52,
+              "category": "Kelompok Kata",
+              "question": "Mana yang tidak sesuai?",
+              "options": ["Intelijen", "Reserse", "Penyelidik", "Hakim"],
+              "correctAnswer": 3,
+              "explanation": "Intelijen, reserse, dan penyelidik adalah bagian dari kepolisian, sedangkan hakim adalah bagian dari sistem peradilan."
+            },
+            {
+              "id": 53,
+                  "category": "Penalaran",
+                  "question": "Dalam suatu kompetisi sepak bola, Arsenal menang atas Chelsea dengan skor 3-0. Liverpool kalah atas Arsenal dan Barcelona dengan skor 1-2. Barcelona menang atas Arsenal dan Chelsea dengan skor sama 2-1. Klub mana yang menjuarai kompetisi tersebut?",
+                  "options": ["Arsenal dan Barcelona seri", "Arsenal", "Liverpool", "Barcelona", "Chelsea"],
+                  "correctAnswer": 3,
+                  "explanation": "Barcelona menang atas Arsenal dan Chelsea sehingga menjadi juara."
+                },
+                {
+                  "id": 54,
+                  "category": "Penalaran",
+                  "question": "Ada tiga sekawan, Mas Bro, Nyunyun, dan Ose yang suka makan di restoran. Mereka dapat memesan sate atau soto. Bila Mas Bro pesan sate, Nyunyun pesan soto. Salah satu dari Mas Bro dan Ose memesan sate. Nyunyun dan Ose keduanya tidak memesan soto. Siapakah yang memesan sate?",
+                  "options": ["Ose", "Nyunyun", "Mas Bro", "Ose dan Nyunyun", "Mas Bro dan Nyunyun"],
+                  "correctAnswer": 2,
+                  "explanation": "Nyunyun tidak memesan soto, sehingga Mas Bro harus memesan sate."
+                },
+                {
+                  "id": 55,
+                  "category": "Penalaran",
+                  "question": "Mobil X, Y, dan Z memiliki tangki bensin yang sama dan terisi penuh. Mobil X menempuh jarak lebih jauh dari mobil Z tetapi tidak lebih jauh dari mobil Y. Setelah sampai tujuan, sisa bensin di tangki mobil Z lebih banyak daripada X tetapi tidak melebihi Y. Manakah pernyataan yang benar?",
+                  "options": ["Mobil X paling irit bensin", "Mobil Y paling irit bensin", "Mobil X lebih irit dari mobil Y", "Mobil Z lebih irit dari mobil Y", "Mobil X lebih boros dari mobil Z"],
+                  "correctAnswer": 4,
+                  "explanation": "Mobil Z memiliki sisa bensin lebih banyak dari mobil X, sehingga X lebih boros."
+                },
+                {
+                  "id": 56,
+                  "category": "Penalaran",
+                  "question": "Lima orang pedagang asongan menghitung hasil penjualan mereka. Pedagang Maman menjual lebih banyak dari Restu, tetapi tidak melebihi Elis. Penjualan Indra sama dengan Restu dan lebih banyak dari Sayang. Pedagang mana yang hasil penjualannya terbanyak?",
+                  "options": ["Elis", "Indra", "Maman", "Restu", "Sayang"],
+                  "correctAnswer": 0,
+                  "explanation": "Elis memiliki penjualan lebih banyak dari Maman, Restu, dan Sayang."
+                },
+                {
+                  "id": 57,
+                  "category": "Penalaran",
+                  "question": "Bioskop ABC memberi diskon setiap hari Senin dan Kamis. Hendri tidak dapat menonton kecuali pada hari Rabu dan Kamis. Suatu hari Hendri menonton dengan mendapatkan diskon. Pernyataan yang benar adalah...",
+                  "options": ["Hendri nonton setiap hari Rabu", "Hendri suka sekali menonton", "Hari itu adalah hari Kamis", "Hari itu adalah hari Senin", "Hendri selalu nonton pada hari Rabu"],
+                  "correctAnswer": 2,
+                  "explanation": "Hendri hanya bisa menonton pada hari Rabu dan Kamis, sedangkan diskon hanya ada di Senin dan Kamis. Jadi, hari itu pasti Kamis."
+                },
+                {
+                  "id": 58,
+                  "category": "Penalaran",
+                  "question": "Dalam acara reuni kampus diadakan ramah tamah. Acara sambutan ketua panitia dilaksanakan sebelum doa. Pertunjukan band mengambil waktu paling banyak. Ketua panitia harus meninggalkan acara sebelum band dimulai. Doa dibacakan setelah ramah tamah. Susunan acara reuni yang benar adalah...",
+                  "options": ["Penghargaan – band – doa – sambutan - ramah tamah", "Sambutan – penghargaan – band – ramah tamah – doa", "Sambutan – doa – penghargaan – band - ramah tamah", "Penghargaan – sambutan – band – doa - ramah tamah", "Tidak ada pilihan jawaban yang benar"],
+                  "correctAnswer": 1,
+                  "explanation": "Sambutan harus dilakukan sebelum band dimulai dan doa dibacakan setelah ramah tamah."
+                },
+                {
+                  "id": 59,
+                  "category": "Penalaran",
+                  "question": "Seorang presenter acara hiburan harus membaca surat dari pemirsa. Surat I dibaca menjelang akhir acara. Surat II dibaca lebih dahulu dari surat I tetapi bukan sebagai surat pembuka. Surat III dan IV dibacakan berurutan di antara surat V dan II. Surat siapakah yang dibaca paling awal?",
+                  "options": ["Surat I", "Surat II", "Surat III", "Surat IV", "Surat V"],
+                  "correctAnswer": 4,
+                  "explanation": "Surat V dibaca sebelum surat II, dan surat II tidak menjadi surat pembuka, sehingga surat V adalah yang pertama."
+                },
+                {
+                  "id": 60,
+                  "category": "Penalaran",
+                  "question": "Farhan menyenangi buku fiksi. Meta penggemar komik dan ensiklopedia. Mayang membeli segala macam novel dan beberapa kamus. Irvan penggemar biografi. Sonya menyukai buku non-fiksi. Jika dibuat kelompok pembaca beranggotakan tiga orang, susunan anggota yang paling sesuai adalah...",
+                  "options": ["Farhan – Sonya –Mayang", "Meta – Irvan – Sonya", "Mayang – Sonya – Irfan", "Irfan – Meta – Mayang", "Farhan – Meta – Irfan"],
+                  "correctAnswer": 1,
+                  "explanation": "Meta (komik & ensiklopedia), Irvan (biografi), dan Sonya (non-fiksi) memiliki kesamaan dalam minat membaca."
+                },
+                {
+                  "id": 61,
+                  "category": "Penalaran",
+                  "question": "Jarak antara kampus A dan kampus B adalah dua kali jarak kampus C dan D. Kampus E terletak di tengah-tengah antara kampus C dan D. Jarak kampus C ke A sama dengan jarak kampus D ke B, yaitu setengah dari jarak kampus A ke kampus E. Kampus mana yang jaraknya paling jauh?",
+                  "options": ["Kampus A", "Kampus B", "Kampus C", "Kampus D", "Kampus E"],
+                  "correctAnswer": 0,
+                  "explanation": "Jarak kampus A adalah yang paling jauh jika dibandingkan dengan lainnya."
+                },
+                {
+                  "id": 62,
+                  "category": "Penalaran",
+                  "question": "Enam mahasiswa duduk berurutan dalam ujian wawancara. Tini tidak bersebelahan dengan Salim atau Tia. Nila duduk di dekat Tia, Tini duduk di dekat Jufri, dan Jufri duduk di sebelah Nila. Salim tidak ingin mendahului Harto dan Harto bersebelahan dengan Tini. Tia duduk di urutan terakhir. Siapa yang duduk di urutan kedua?",
+                  "options": ["Tini", "Salim", "Tia", "Nila", "Harto"],
+                  "correctAnswer": 4,
+                  "explanation": "Dengan menyusun posisi berdasarkan petunjuk yang diberikan, Harto duduk di urutan kedua."
+                },
+                {
+                  "id": 63,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seorang polisi disiplin, maka ia akan dihormati oleh masyarakat. Seorang polisi bernama Andi dihormati oleh masyarakat. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Andi adalah polisi yang disiplin",
+                        "Semua polisi dihormati masyarakat",
+                        "Hanya polisi yang disiplin yang dihormati",
+                        "Andi bisa saja bukan polisi yang disiplin",
+                        "Tidak ada kesimpulan yang dapat ditarik"
+                      ],
+                      "correctAnswer": 3,
+                      "explanation": "Fakta bahwa Andi dihormati masyarakat tidak berarti ia pasti disiplin."
+                    },
+                    {
+                      "id": 64,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seorang perwira memiliki integritas, maka ia tidak akan menerima suap. Beberapa perwira menerima suap. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua perwira memiliki integritas",
+                        "Beberapa perwira tidak memiliki integritas",
+                        "Tidak ada perwira yang memiliki integritas",
+                        "Semua perwira menerima suap",
+                        "Integritas tidak ada hubungannya dengan suap"
+                      ],
+                      "correctAnswer": 1,
+                      "explanation": "Karena ada perwira yang menerima suap, maka sebagian dari mereka tidak memiliki integritas."
+                    },
+                    {
+                      "id": 65,
+                      "category": "Penalaran Logis",
+                      "question": "Semua tersangka harus diperiksa. Beberapa orang yang diperiksa adalah warga sipil. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua warga sipil adalah tersangka",
+                        "Semua tersangka adalah warga sipil",
+                        "Beberapa warga sipil mungkin tersangka",
+                        "Tidak ada warga sipil yang tersangka",
+                        "Warga sipil tidak boleh diperiksa"
+                      ],
+                      "correctAnswer": 2,
+                      "explanation": "Karena beberapa orang yang diperiksa adalah warga sipil, maka mereka mungkin tersangka."
+                    },
+                    {
+                      "id": 66,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seseorang melanggar hukum, maka ia akan dihukum. Beberapa orang tidak dihukum. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua orang mematuhi hukum",
+                        "Beberapa orang tidak melanggar hukum",
+                        "Semua orang melanggar hukum",
+                        "Tidak ada orang yang dihukum",
+                        "Semua orang dihukum"
+                      ],
+                      "correctAnswer": 1,
+                      "explanation": "Karena ada orang yang tidak dihukum, maka mereka mungkin tidak melanggar hukum."
+                    },
+                    {
+                      "id": 67,
+                      "category": "Penalaran Logis",
+                      "question": "Semua kejahatan harus diselidiki. Beberapa kasus tidak dapat diselidiki. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Beberapa kasus bukan kejahatan",
+                        "Semua kasus adalah kejahatan",
+                        "Tidak ada kasus yang dapat diselidiki",
+                        "Semua kejahatan tidak dapat diselidiki",
+                        "Tidak ada kejahatan yang dapat diselidiki"
+                      ],
+                      "correctAnswer": 0,
+                      "explanation": "Karena ada kasus yang tidak dapat diselidiki, maka beberapa kasus bukan kejahatan."
+                    },
+                    {
+                      "id": 68,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seorang polisi bekerja keras, maka ia akan mendapatkan promosi. Beberapa polisi mendapatkan promosi. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua polisi bekerja keras",
+                        "Semua polisi mendapatkan promosi",
+                        "Beberapa polisi mungkin bekerja keras",
+                        "Tidak ada polisi yang bekerja keras",
+                        "Semua polisi mendapatkan promosi karena bekerja keras"
+                      ],
+                      "correctAnswer": 2,
+                      "explanation": "Karena beberapa polisi mendapat promosi, bisa jadi mereka bekerja keras."
+                    },
+                    {
+                      "id": 69,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seseorang jujur, maka ia tidak akan menipu. Beberapa orang tidak menipu. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua orang jujur",
+                        "Beberapa orang mungkin jujur",
+                        "Tidak ada orang yang jujur",
+                        "Semua orang menipu",
+                        "Kejujuran tidak mempengaruhi perilaku menipu"
+                      ],
+                      "correctAnswer": 1,
+                      "explanation": "Karena ada orang yang tidak menipu, maka beberapa orang mungkin jujur."
+                    },
+                    {
+                      "id": 70,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seseorang menaati aturan lalu lintas, maka ia tidak akan dikenakan tilang. Beberapa orang dikenakan tilang. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua orang menaati aturan lalu lintas",
+                        "Semua orang dikenakan tilang",
+                        "Beberapa orang tidak menaati aturan lalu lintas",
+                        "Tidak ada orang yang menaati aturan lalu lintas",
+                        "Tilang tidak berhubungan dengan aturan lalu lintas"
+                      ],
+                      "correctAnswer": 2,
+                      "explanation": "Karena ada orang yang dikenakan tilang, maka mereka mungkin melanggar aturan lalu lintas."
+                    },
+                    {
+                      "id": 71,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seseorang memahami hukum, maka ia tidak akan melakukan pelanggaran. Beberapa orang melakukan pelanggaran. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua orang memahami hukum",
+                        "Semua orang melakukan pelanggaran",
+                        "Beberapa orang mungkin tidak memahami hukum",
+                        "Tidak ada yang memahami hukum",
+                        "Pemahaman hukum tidak mempengaruhi perilaku"
+                      ],
+                      "correctAnswer": 2,
+                      "explanation": "Karena beberapa orang melakukan pelanggaran, maka mereka mungkin tidak memahami hukum."
+                    },
+                    {
+                      "id": 72,
+                      "category": "Penalaran Logis",
+                      "question": "Jika seseorang sehat, maka ia dapat bertugas dengan baik. Beberapa orang tidak dapat bertugas dengan baik. Kesimpulan yang benar adalah...",
+                      "options": [
+                        "Semua orang sehat",
+                        "Beberapa orang tidak sehat",
+                        "Tidak ada yang sehat",
+                        "Semua orang dapat bertugas dengan baik",
+                        "Kesehatan tidak berhubungan dengan tugas"
+                      ],
+                      "correctAnswer": 1,
+                      "explanation": "Karena beberapa orang tidak dapat bertugas dengan baik, maka mereka mungkin tidak sehat."
+                    },
+                    {
+                      "id": 73,
+                          "category": "Ketaksamaan Gambar",
+                          "question": "Dari kelima gambar berikut, manakah yang tidak sesuai dengan pola lainnya?",
+                          "image": "stock_image_mismatch.jpg",
+                          "options": ["A", "B", "C", "D", "E"],
+                          "correctAnswer": 3,
+                          "explanation": "Gambar D memiliki elemen yang berbeda dibandingkan gambar lainnya."
+                        },
+                        {
+                          "id": 74,
+                          "category": "Seri Gambar",
+                          "question": "Pilihlah gambar yang merupakan kelanjutan logis dari seri berikut.",
+                          "image": "stock_image_series.jpg",
+                          "options": ["A", "B", "C", "D", "E"],
+                          "correctAnswer": 1,
+                          "explanation": "Gambar B melanjutkan pola rotasi yang ada pada seri sebelumnya."
+                        },
+                        {
+                          "id": 75,
+                          "category": "Matriks Gambar",
+                          "question": "Pilihlah gambar yang mengisi kotak kosong sesuai pola matriks yang tersedia.",
+                          "image": "stock_image_matrix.jpg",
+                          "options": ["A", "B", "C", "D"],
+                          "correctAnswer": 0,
+                          "explanation": "Gambar A mengikuti pola perpaduan bentuk dari baris sebelumnya."
+                        },
+                        {
+                          "id": 76,
+                          "category": "Analogi Gambar",
+                          "question": "Gambar pertama berhubungan dengan gambar kedua seperti gambar ketiga berhubungan dengan...",
+                          "image": "stock_image_analogy.jpg",
+                          "options": ["A", "B", "C", "D", "E"],
+                          "correctAnswer": 2,
+                          "explanation": "Gambar C memiliki hubungan yang sama dengan pola sebelumnya."
+                        },
+                        {
+                          "id": 77,
+                          "category": "Pencerminan",
+                          "question": "Pilihlah bayangan cermin yang tepat dari gambar yang diberikan.",
+                          "image": "stock_image_mirror.jpg",
+                          "options": ["A", "B", "C", "D"],
+                          "correctAnswer": 1,
+                          "explanation": "Gambar B merupakan refleksi yang benar dari gambar asli."
+                        },
+                        {
+                          "id": 78,
+                          "category": "Dimensi Ruang (Rotasi)",
+                          "question": "Pilihlah gambar tiga dimensi yang merupakan rotasi dari gambar asli.",
+                          "image": "stock_image_rotation.jpg",
+                          "options": ["A", "B", "C", "D"],
+                          "correctAnswer": 3,
+                          "explanation": "Gambar D menunjukkan rotasi yang tepat dari objek yang diberikan."
+                        },
+                        {
+                          "id": 79,
+                          "category": "Menyusun Jaring-Jaring",
+                          "question": "Pilihlah jaring-jaring yang benar untuk membentuk bangun ruang yang diberikan.",
+                          "image": "stock_image_net.jpg",
+                          "options": ["A", "B", "C", "D"],
+                          "correctAnswer": 2,
+                          "explanation": "Jaring-jaring pada gambar C dapat membentuk bangun ruang yang sesuai."
+                        },
+                        {
+                          "id": 80,
+                          "category": "Seri Gambar",
+                          "question": "Manakah gambar berikut yang merupakan lanjutan dari pola yang diberikan?",
+                          "image": "stock_image_sequence.jpg",
+                          "options": ["A", "B", "C", "D", "E"],
+                          "correctAnswer": 4,
+                          "explanation": "Gambar E melanjutkan urutan logis dari pola yang diberikan."
+                        },
+                        {
+                          "id": 81,
+                          "category": "Ketaksamaan Gambar",
+                          "question": "Dari pilihan berikut, gambar mana yang berbeda dari lainnya?",
+                          "image": "stock_image_odd_one_out.jpg",
+                          "options": ["A", "B", "C", "D", "E"],
+                          "correctAnswer": 2,
+                          "explanation": "Gambar C memiliki fitur yang berbeda dibandingkan lainnya."
+                        },
+                        {
+                          "id": 82,
+                          "category": "Pencerminan",
+                          "question": "Pilihlah gambar (A), (B), (C), (D), atau (E) untuk melanjutkan pola gambar yang tersedia!",
+                          "image": "stock_image_reflection.jpg",
+                          "options": ["A", "B", "C", "D"],
+                          "correctAnswer": 1,
+                          "explanation": "Gambar B adalah bayangan cermin yang sesuai."
+                        },
+                        {"id": 83,
+                              "category": "Numerik",
+                              "question": "Jarak antara rumah Edo dan sekolahnya adalah 12 km. Jika Edo bersepeda dengan kecepatan 8 km/jam, berapa waktu yang dibutuhkan Edo untuk sampai ke sekolah?",
+                              "options": ["1 jam", "1,5 jam", "2 jam", "2,5 jam"],
+                              "correctAnswer": 1,
+                              "explanation": "Waktu = Jarak / Kecepatan = 12 km / 8 km/jam = 1,5 jam."
+                            },
+                            {
+                              "id": 84,
+                              "category": "Numerik",
+                              "question": "Sebuah mobil melaju dengan kecepatan 60 km/jam. Jika mobil berjalan selama 2,5 jam, berapa jarak yang ditempuh?",
+                              "options": ["100 km", "120 km", "150 km", "180 km"],
+                              "correctAnswer": 2,
+                              "explanation": "Jarak = Kecepatan × Waktu = 60 km/jam × 2,5 jam = 150 km."
+                            },
+                            {
+                              "id": 85,
+                              "category": "Numerik",
+                              "question": "Sebuah kereta menempuh perjalanan sejauh 300 km dalam waktu 4 jam. Berapa kecepatan rata-rata kereta tersebut?",
+                              "options": ["60 km/jam", "70 km/jam", "75 km/jam", "80 km/jam"],
+                              "correctAnswer": 2,
+                              "explanation": "Kecepatan = Jarak / Waktu = 300 km / 4 jam = 75 km/jam."
+                            },
+                            {
+                              "id": 86,
+                              "category": "Numerik",
+                              "question": "Sebuah bus berangkat dari kota A ke kota B dengan kecepatan 90 km/jam dan menempuh jarak 270 km. Berapa lama waktu yang diperlukan bus untuk sampai ke kota B?",
+                              "options": ["2 jam", "3 jam", "4 jam", "5 jam"],
+                              "correctAnswer": 1,
+                              "explanation": "Waktu = Jarak / Kecepatan = 270 km / 90 km/jam = 3 jam."
+                            },
+                            {
+                              "id": 87,
+                              "category": "Numerik",
+                              "question": "Seorang pejalan kaki berjalan dengan kecepatan 4 km/jam selama 45 menit. Berapa jarak yang telah ditempuhnya?",
+                              "options": ["2 km", "3 km", "4 km", "5 km"],
+                              "correctAnswer": 1,
+                              "explanation": "Waktu dalam jam = 45 menit / 60 = 0.75 jam. Jarak = 4 km/jam × 0.75 jam = 3 km."
+                            },
+                            {
+                              "id": 88,
+                              "category": "Numerik",
+                              "question": "Sebuah sepeda motor menempuh perjalanan sejauh 150 km dalam waktu 2,5 jam. Berapa kecepatan rata-rata sepeda motor tersebut?",
+                              "options": ["50 km/jam", "55 km/jam", "60 km/jam", "65 km/jam"],
+                              "correctAnswer": 2,
+                              "explanation": "Kecepatan = Jarak / Waktu = 150 km / 2.5 jam = 60 km/jam."
+                            },
+                            {
+                              "id": 89,
+                              "category": "Numerik",
+                              "question": "Dina berjalan sejauh 3,2 km dalam waktu 40 menit. Berapa kecepatan rata-rata Dina dalam meter per detik?",
+                              "options": ["1,2 m/s", "1,3 m/s", "1,4 m/s", "1,5 m/s"],
+                              "correctAnswer": 2,
+                              "explanation": "Kecepatan dalam m/s = (3,2 km × 1000 m/km) / (40 × 60 s) = 1,33 ≈ 1,4 m/s."
+                            },
+                            {
+                              "id": 90,
+                              "category": "Numerik",
+                              "question": "Sebuah pesawat menempuh perjalanan sejauh 600 km dalam waktu 1 jam 20 menit. Berapa kecepatan rata-rata pesawat tersebut?",
+                              "options": ["400 km/jam", "450 km/jam", "500 km/jam", "550 km/jam"],
+                              "correctAnswer": 2,
+                              "explanation": "Waktu dalam jam = 1 jam 20 menit = 1,33 jam. Kecepatan = 600 km / 1,33 jam ≈ 500 km/jam."
+                            },
+                            {
+                              "id": 91,
+                              "category": "Numerik",
+                              "question": "Jarak antara dua kota adalah 240 km. Sebuah mobil berangkat dari kota A pukul 08.00 dan tiba di kota B pukul 11.00. Berapakah kecepatan rata-rata mobil tersebut?",
+                              "options": ["70 km/jam", "75 km/jam", "80 km/jam", "85 km/jam"],
+                              "correctAnswer": 2,
+                              "explanation": "Waktu tempuh = 11.00 - 08.00 = 3 jam. Kecepatan = 240 km / 3 jam = 80 km/jam."
+                            },
+                            {
+                              "id": 92,
+                              "category": "Numerik",
+                              "question": "Seorang atlet berlari dengan kecepatan 6 m/s selama 5 menit. Berapa jarak yang ditempuhnya?",
+                              "options": ["1,5 km", "1,8 km", "2,0 km", "2,2 km"],
+                              "correctAnswer": 2,
+                              "explanation": "Jarak = kecepatan × waktu = 6 m/s × (5 × 60 s) = 1800 m = 2,0 km."
+                            },
+                            {
+                              "id": 93,
+                                  "category": "Deret Angka",
+                                  "question": "Tentukan angka berikutnya dalam pola berikut: 100, 110, 110, 95, 95, 75, 75, ....",
+                                  "options": ["40", "45", "50", "55", "60"],
+                                  "correctAnswer": 3,
+                                  "explanation": "Polanya adalah pengulangan nilai yang menurun 15, sehingga 75 - 20 = 55."
+                                },
+                                {
+                                  "id": 94,
+                                  "category": "Deret Angka",
+                                  "question": "Tentukan angka berikutnya dalam pola berikut: 30, 31, 35, 39, 40, 44, 48, ....",
+                                  "options": ["48", "49", "52", "54", "55"],
+                                  "correctAnswer": 2,
+                                  "explanation": "Polanya bertambah 1, lalu 4, lalu 4 secara berulang, sehingga 48 + 4 = 52."
+                                },
+                                {
+                                  "id": 95,
+                                  "category": "Deret Angka",
+                                  "question": "Tentukan angka berikutnya dalam pola berikut: 729, 625, 529, 441, ....",
+                                  "options": ["325", "361", "381", "393", "421"],
+                                  "correctAnswer": 1,
+                                  "explanation": "Polanya adalah kuadrat dari angka ganjil (27², 25², 23², 21², sehingga 19² = 361)."
+                                },
+                                {
+                                  "id": 96,
+                                  "category": "Deret Angka",
+                                  "question": "Tentukan angka berikutnya dalam pola berikut: 2, 3, 6, 3, 4, 12, 4, 5, 24, 5, 6, ....",
+                                  "options": ["30", "36", "48", "60", "72"],
+                                  "correctAnswer": 2,
+                                  "explanation": "Polanya adalah angka pertama dikali angka kedua berikutnya (6x6 = 36)."
+                                },
+                                {
+                                  "id": 97,
+                                  "category": "Deret Angka",
+                                  "question": "Tentukan angka berikutnya dalam pola berikut: 9, 25, 49, 121, 169, ....",
+                                  "options": ["182", "196", "225", "256", "289"],
+                                  "correctAnswer": 1,
+                                  "explanation": "Polanya adalah kuadrat angka ganjil (3², 5², 7², 11², 13², sehingga 14² = 196)."
+                                },
+                                {
+                                  "id": 98,
+                                  "category": "Deret Huruf",
+                                  "question": "Tentukan huruf berikutnya dalam pola berikut: a, b, z, c, d, y, e, f, ...",
+                                  "options": ["t", "u", "v", "w", "x"],
+                                  "correctAnswer": 4,
+                                  "explanation": "Pola mengikuti huruf maju dua kali, lalu mundur satu (x)."
+                                },
+                                {
+                                  "id": 99,
+                                  "category": "Deret Huruf",
+                                  "question": "Tentukan huruf berikutnya dalam pola berikut: c, b, a, p, q, f, e, d, r, s, ....",
+                                  "options": ["g", "h", "i", "j", "k"],
+                                  "correctAnswer": 1,
+                                  "explanation": "Pola mengikuti huruf mundur dan maju secara bergantian, sehingga jawabannya adalah h."
+                                },
+                                {
+                                  "id": 100,
+                                  "category": "Deret Huruf",
+                                  "question": "Tentukan huruf berikutnya dalam pola berikut: a, c, f, j, o, ....",
+                                  "options": ["s", "t", "u", "v", "w"],
+                                  "correctAnswer": 1,
+                                  "explanation": "Pola bertambah 2, 3, 4, 5, sehingga setelah o ditambah 6 menjadi t."
+                                },
+                                {
+                                  "id": 101,
+                                  "category": "Deret Huruf",
+                                  "question": "Tentukan huruf berikutnya dalam pola berikut: a, k, c, m, e, o, ....",
+                                  "options": ["g", "h", "o", "p", "q"],
+                                  "correctAnswer": 0,
+                                  "explanation": "Pola bertambah dua huruf setelah setiap dua langkah, sehingga setelah o adalah g."
+                                },
+                                {
+                                  "id": 102,
+                                  "category": "Deret Huruf",
+                                  "question": "Tentukan huruf berikutnya dalam pola berikut: a, n, c, p, f, s, j, ....",
+                                  "options": ["t", "u", "v", "w", "f"],
+                                  "correctAnswer": 1,
+                                  "explanation": "Pola bertambah dua huruf setelah setiap langkah, sehingga setelah j adalah u."
+                                },
+                                {
+                                  "id": 103,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Perbandingan kelereng A, B, C adalah 2:3:5. Jika jumlah kelereng mereka adalah 80, maka selisih kelereng C dan A adalah…",
+                                      "options": ["16", "24", "36", "42", "45"],
+                                      "correctAnswer": 1,
+                                      "explanation": "Jumlah bagian = 2+3+5 = 10. Kelereng C = (5/10) × 80 = 40, kelereng A = (2/10) × 80 = 16. Selisihnya 40 - 16 = 24."
+                                    },
+                                    {
+                                      "id": 104,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah perusahaan konveksi memerlukan 130 m kain untuk membuat 40 potong baju. Jika tersedia 312 m kain, berapa banyak baju yang dapat dibuat?",
+                                      "options": ["92", "94", "96", "98", "99"],
+                                      "correctAnswer": 2,
+                                      "explanation": "312 m kain dapat membuat (312/130) × 40 = 96 potong baju."
+                                    },
+                                    {
+                                      "id": 105,
+                                      "category": "Perbandingan Berbalik Nilai",
+                                      "question": "Sebuah pekerjaan dapat diselesaikan oleh 12 orang dalam 15 hari. Jika pekerjaan tersebut harus selesai dalam 9 hari, berapa pekerja tambahan yang dibutuhkan?",
+                                      "options": ["6", "7", "8", "9", "10"],
+                                      "correctAnswer": 2,
+                                      "explanation": "Jumlah pekerja baru = (12 × 15) / 9 = 20. Tambahan pekerja = 20 - 12 = 8."
+                                    },
+                                    {
+                                      "id": 106,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah mobil menempuh jarak 162 km dengan bahan bakar 15 liter. Berapa banyak bahan bakar yang dibutuhkan untuk menempuh 415 km?",
+                                      "options": ["36.4", "38.4", "34.6", "34.8", "35.4"],
+                                      "correctAnswer": 1,
+                                      "explanation": "Bahan bakar yang dibutuhkan = (415/162) × 15 = 38.4 liter."
+                                    },
+                                    {
+                                      "id": 107,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah motor menempuh 240 km dengan 8 liter bensin. Jika memiliki 12 liter bensin, berapa kilometer yang dapat ditempuh?",
+                                      "options": ["360 km", "270 km", "320 km", "240 km", "460 km"],
+                                      "correctAnswer": 0,
+                                      "explanation": "Jarak yang dapat ditempuh = (12/8) × 240 = 360 km."
+                                    },
+                                    {
+                                      "id": 108,
+                                      "category": "Perbandingan Berbalik Nilai",
+                                      "question": "Sebuah pabrik menggunakan solar untuk memanaskan 4 ketel dalam 6 minggu. Berapa minggu diperlukan untuk memanaskan 16 ketel?",
+                                      "options": ["24", "18", "12", "9", "10"],
+                                      "correctAnswer": 3,
+                                      "explanation": "Jumlah minggu yang dibutuhkan = (4 × 6) / 16 = 9 minggu."
+                                    },
+                                    {
+                                      "id": 109,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah konveksi menjahit 150 potong pakaian dalam 6 hari. Berapa banyak pakaian yang dapat dijahit dalam 21 hari?",
+                                      "options": ["625", "425", "525", "275", "375"],
+                                      "correctAnswer": 2,
+                                      "explanation": "Banyak pakaian = (21/6) × 150 = 525 potong."
+                                    },
+                                    {
+                                      "id": 110,
+                                      "category": "Perbandingan Berbalik Nilai",
+                                      "question": "Sebuah pekerjaan membutuhkan waktu 8 hari jika dikerjakan oleh 10 orang. Jika hanya tersedia 5 orang, berapa lama waktu yang dibutuhkan?",
+                                      "options": ["10 hari", "12 hari", "14 hari", "16 hari", "18 hari"],
+                                      "correctAnswer": 3,
+                                      "explanation": "Waktu yang dibutuhkan = (10 × 8) / 5 = 16 hari."
+                                    },
+                                    {
+                                      "id": 111,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah mobil membutuhkan 15 liter bensin untuk menempuh 225 km. Berapa liter bensin yang dibutuhkan untuk menempuh 180 km?",
+                                      "options": ["12", "27", "120", "270", "50"],
+                                      "correctAnswer": 0,
+                                      "explanation": "Bahan bakar yang dibutuhkan = (180/225) × 15 = 12 liter."
+                                    },
+                                    {
+                                      "id": 112,
+                                      "category": "Perbandingan Senilai",
+                                      "question": "Sebuah mobil membutuhkan 4 liter bensin untuk perjalanan sejauh 72 km. Berapa bensin yang dibutuhkan untuk menempuh 54 km?",
+                                      "options": ["1 liter", "1.5 liter", "3 liter", "3.5 liter", "4 liter"],
+                                      "correctAnswer": 2,
+                                      "explanation": "Bahan bakar yang dibutuhkan = (54/72) × 4 = 3 liter."
+                                    },
+                                    {
+                                      "id": 113,
+                                          "category": "Satuan Waktu",
+                                          "question": "Sebuah printer dapat mencetak satu lembar naskah dalam waktu 0,35 menit. Berapa waktu yang diperlukan printer tersebut dalam satuan detik?",
+                                          "options": ["21", "23", "22", "31", "32"],
+                                          "correctAnswer": 2,
+                                          "explanation": "0,35 menit × 60 detik = 21 detik."
+                                        },
+                                        {
+                                          "id": 114,
+                                          "category": "Satuan Waktu",
+                                          "question": "Sebuah mesin faksimili mengirimkan satu halaman dalam waktu 24 detik. Berapa waktu yang diperlukan dalam satuan menit?",
+                                          "options": ["0,2", "0,3", "0,4", "0,5", "0,6"],
+                                          "correctAnswer": 1,
+                                          "explanation": "24 detik ÷ 60 = 0,4 menit."
+                                        },
+                                        {
+                                          "id": 115,
+                                          "category": "Satuan Panjang",
+                                          "question": "330 cm = .... dam?",
+                                          "options": ["3.000", "30", "3", "0,3", "300"],
+                                          "correctAnswer": 3,
+                                          "explanation": "330 cm = 3,3 m = 0,3 dam."
+                                        },
+                                        {
+                                          "id": 116,
+                                          "category": "Satuan Panjang",
+                                          "question": "50 hm = .... km?",
+                                          "options": ["5", "50", "25", "250", "500"],
+                                          "correctAnswer": 0,
+                                          "explanation": "50 hm = 5 km karena 1 hm = 0,1 km."
+                                        },
+                                        {
+                                          "id": 117,
+                                          "category": "Satuan Panjang",
+                                          "question": "650 dm = .... dam?",
+                                          "options": ["0,065", "0,65", "6,5", "65", "6"],
+                                          "correctAnswer": 2,
+                                          "explanation": "650 dm = 65 m = 6,5 dam."
+                                        },
+                                        {
+                                          "id": 118,
+                                          "category": "Satuan Panjang",
+                                          "question": "58 m = .... mm?",
+                                          "options": ["5.800", "58.000", "58", "580", "5,8"],
+                                          "correctAnswer": 1,
+                                          "explanation": "58 m × 1.000 = 58.000 mm."
+                                        },
+                                        {
+                                          "id": 119,
+                                          "category": "Satuan Panjang",
+                                          "question": "4 m + 4 dam = .... cm?",
+                                          "options": ["800", "8.000", "440", "4.400", "880"],
+                                          "correctAnswer": 3,
+                                          "explanation": "4 m = 400 cm, 4 dam = 4.000 cm, total = 4.400 cm."
+                                        },
+                                        {
+                                          "id": 120,
+                                          "category": "Satuan Panjang",
+                                          "question": "8 hm + 400 m = .... km?",
+                                          "options": ["1,2", "8,4", "4,8", "12", "84"],
+                                          "correctAnswer": 1,
+                                          "explanation": "8 hm = 0,8 km, 400 m = 0,4 km, total = 8,4 km."
+                                        },
+                                        {
+                                          "id": 121,
+                                          "category": "Satuan Panjang",
+                                          "question": "40 m + 3.500 cm = .... dm?",
+                                          "options": ["750 cm", "75 cm", "4.800 cm", "48 cm", "480 cm"],
+                                          "correctAnswer": 4,
+                                          "explanation": "40 m = 400 dm, 3.500 cm = 350 dm, total = 480 dm."
+                                        },
+                                        {
+                                          "id": 122,
+                                          "category": "Satuan Panjang",
+                                          "question": "6 km – 120 dam = .... hm?",
+                                          "options": ["4,8", "48", "18", "126", "124"],
+                                          "correctAnswer": 1,
+                                          "explanation": "6 km = 60 hm, 120 dam = 12 hm, selisih = 48 hm."
+                                        },
+                                        {
+                                          "id": 123,
+                                              "category": "Mean",
+                                              "question": "Nadia mendapat nilai 78, 86, 80, dan 91 untuk empat mata kuliah. Berapa nilai yang harus diperoleh untuk mata kuliah yang kelima agar diperoleh rata-rata 85?",
+                                              "options": ["70", "75", "74", "72"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Total nilai yang diperlukan = 85 × 5 = 425. Total nilai saat ini = 78 + 86 + 80 + 91 = 335. Nilai kelima = 425 - 335 = 90."
+                                            },
+                                            {
+                                              "id": 124,
+                                              "category": "Mean",
+                                              "question": "Seorang siswa memperoleh nilai 91, 88, 86, dan 78 untuk empat mata pelajaran. Berapa nilai yang harus diperoleh untuk mata pelajaran kelima agar dia memperoleh rata-rata 85?",
+                                              "options": ["86", "85", "84", "82"],
+                                              "correctAnswer": 0,
+                                              "explanation": "Total nilai yang diperlukan = 85 × 5 = 425. Total nilai saat ini = 91 + 88 + 86 + 78 = 343. Nilai kelima = 425 - 343 = 86."
+                                            },
+                                            {
+                                              "id": 125,
+                                              "category": "Mean",
+                                              "question": "Jika x rupiah dibagi rata kepada n orang, setiap orang akan mendapat Rp. 60.000. Jika satu orang lagi bergabung dan x rupiah tetap dibagi rata, maka setiap orang mendapat Rp. 50.000. Berapa jumlah x?",
+                                              "options": ["3.000.000", "2.500.000", "500.000", "300.000"],
+                                              "correctAnswer": 0,
+                                              "explanation": "Jumlah uang awal = 60.000 × n. Setelah satu orang bergabung, x / (n+1) = 50.000. Dengan menyusun persamaan, diperoleh x = 3.000.000."
+                                            },
+                                            {
+                                              "id": 126,
+                                              "category": "Median",
+                                              "question": "Diketahui kumpulan data berikut: 12, 14, 17, 19, 21, 25, 27. Berapakah median dari data ini?",
+                                              "options": ["14", "17", "19", "21"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Median adalah nilai tengah, dalam urutan ini nilai tengah adalah 19."
+                                            },
+                                            {
+                                              "id": 127,
+                                              "category": "Modus",
+                                              "question": "Diketahui data nilai ulangan: 75, 80, 85, 85, 90, 95, 85. Berapakah modus dari data ini?",
+                                              "options": ["75", "80", "85", "90"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Modus adalah nilai yang paling sering muncul, yaitu 85 (muncul 3 kali)."
+                                            },
+                                            {
+                                              "id": 128,
+                                              "category": "Range",
+                                              "question": "Diketahui tinggi badan siswa dalam cm: 150, 155, 160, 165, 170. Berapakah range dari data ini?",
+                                              "options": ["10", "15", "20", "25"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Range adalah selisih antara nilai tertinggi dan terendah: 170 - 150 = 20 cm."
+                                            },
+                                            {
+                                              "id": 129,
+                                              "category": "Mean",
+                                              "question": "Rata-rata berat badan dari 17 anak yang akan mengikuti lomba senam adalah 47 kg. Ada satu anak yang baru mendaftar yang menyebabkan rata-rata naik menjadi 48 kg. Berapa berat badan anak tersebut?",
+                                              "options": ["45", "55", "65", "75"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Total berat sebelumnya = 17 × 47 = 799. Setelah satu anak bergabung: (799 + x) / 18 = 48, sehingga x = 65 kg."
+                                            },
+                                            {
+                                              "id": 130,
+                                              "category": "Mean",
+                                              "question": "Rata-rata nilai 20 siswa adalah 68. Jika nilai rata-rata Andi dan Deni (50) dikeluarkan dari rata-rata tersebut, maka rata-rata sekarang menjadi?",
+                                              "options": ["50", "60", "70", "80"],
+                                              "correctAnswer": 2,
+                                              "explanation": "Total nilai awal = 20 × 68 = 1360. Setelah mengeluarkan Andi & Deni (2 × 50 = 100), total menjadi 1260 untuk 18 siswa. Rata-rata baru = 1260 / 18 = 70."
+                                            },
+                                            {
+                                              "id": 131,
+                                              "category": "Mean",
+                                              "question": "Ada 14 gulungan kain dengan berat rata-rata 55 kg dan 6 gulungan dengan berat rata-rata 48 kg. Jika digabungkan, berapa rata-rata berat gulungan kain tersebut?",
+                                              "options": ["42,2", "43,3", "44,2", "45,2"],
+                                              "correctAnswer": 3,
+                                              "explanation": "Total berat = (14 × 55) + (6 × 48) = 770 + 288 = 1058. Rata-rata = 1058 / 20 = 45,2."
+                                            },
+                                            {
+                                              "id": 132,
+                                              "category": "Mean",
+                                              "question": "Rata-rata nilai 32 siswa adalah 6,3. Jika nilai rata-rata 8 siswa yang baru bergabung adalah 7,3, maka rata-rata keseluruhan menjadi?",
+                                              "options": ["5,5", "6,5", "7,5", "8,5"],
+                                              "correctAnswer": 1,
+                                              "explanation": "Total awal = 32 × 6,3 = 201.6, total baru = 8 × 7,3 = 58.4. Total semua = 260 / 40 = 6,5."
+                                            },
+                                            {
+                                              "id": 133,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Tio harus membayar Rp 10.000,00 untuk pembelian 5 buku dan 5 pensil. Tia membayar Rp 11.900,00 untuk pembelian 7 buku dan 4 pensil. Berapakah yang harus dibayar oleh Tini bila ia membeli 10 buku dan 5 pensil?",
+                                                  "options": ["Rp 15.000,00", "Rp 15.500,00", "Rp 16.000,00", "Rp 16.500,00", "Rp 17.000,00"],
+                                                  "correctAnswer": 2,
+                                                  "explanation": "Gunakan sistem persamaan linear untuk menyelesaikan harga buku dan pensil."
+                                                },
+                                                {
+                                                  "id": 134,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Seorang pengrajin merencanakan membuat tas dan keranjang dari bambu. Jumlah total barang adalah 48 buah, dan jumlah keranjang tiga kali lebih banyak daripada jumlah tas. Berapa jumlah keranjang yang akan dibuat?",
+                                                  "options": ["24", "36", "42", "52", "63"],
+                                                  "correctAnswer": 1,
+                                                  "explanation": "Gunakan sistem persamaan x + y = 48 dengan y = 3x untuk menyelesaikan."
+                                                },
+                                                {
+                                                  "id": 135,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Sebuah pabrik membuat sepatu dan sandal. Jumlah total 1.200 pasang, dengan jumlah sepatu 4 kali lipat dari jumlah sandal. Berapa pasang sepatu yang dibuat?",
+                                                  "options": ["1000", "960", "720", "480", "500"],
+                                                  "correctAnswer": 1,
+                                                  "explanation": "Gunakan sistem persamaan x + y = 1200 dengan x = 4y untuk mencari x."
+                                                },
+                                                {
+                                                  "id": 136,
+                                                  "category": "Logika Numerik",
+                                                  "question": "Umur Deksa 4 tahun lebih tua dari Elisa. Elisa 3 tahun lebih tua dari Firda. Jika jumlah umur mereka bertiga adalah 58 tahun, berapa umur Deksa dan Firda?",
+                                                  "options": ["52 tahun", "45 tahun", "42 tahun", "39 tahun", "37 tahun"],
+                                                  "correctAnswer": 2,
+                                                  "explanation": "Gunakan sistem persamaan umur Deksa = Elisa + 4 dan Elisa = Firda + 3."
+                                                },
+                                                {
+                                                  "id": 137,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Di sebuah bangunan terdapat 155 pintu dan jendela. Jumlah jendela empat kali lebih banyak dari pintu. Berapa jumlah jendela?",
+                                                  "options": ["129", "127", "124", "123", "120"],
+                                                  "correctAnswer": 2,
+                                                  "explanation": "Gunakan sistem persamaan x + y = 155 dengan y = 4x."
+                                                },
+                                                {
+                                                  "id": 138,
+                                                  "category": "Perbandingan",
+                                                  "question": "Jika Joko memiliki dua kali uang lebih banyak dari yang ia miliki sekarang, ia bisa membeli 3 potong pisang goreng (Rp. 960/pcs) dan 2 botol air mineral (Rp. 1.280/botol). Berapa uang Joko sekarang?",
+                                                  "options": ["Rp 1.600", "Rp 2.240", "Rp 2.720", "Rp 5.440", "Rp 5.500"],
+                                                  "correctAnswer": 1,
+                                                  "explanation": "Total biaya = (3 × 960) + (2 × 1.280) = 4.800. Maka uang awal = 4.800 / 2."
+                                                },
+                                                {
+                                                  "id": 139,
+                                                  "category": "Logika Numerik",
+                                                  "question": "Sebuah perusahaan memiliki pegawai 29 orang tahun lalu. Tahun ini pegawainya bertambah 3 kali lipat, tetapi 3 orang keluar dan masuk pegawai baru sebanyak dua kali lipat dari yang keluar. Berapa jumlah pegawai sekarang?",
+                                                  "options": ["69", "96", "76", "67", "69"],
+                                                  "correctAnswer": 2,
+                                                  "explanation": "Total awal = 3 × 29 - 3 + (2 × 3) = 76."
+                                                },
+                                                {
+                                                  "id": 140,
+                                                  "category": "Logika Numerik",
+                                                  "question": "Ahmad, Bahtiar, Candra, dan Doni membagi 144 jeruk. Ahmad mendapat 10 lebih banyak dari Bahtiar, 26 lebih banyak dari Candra, dan 32 lebih banyak dari Doni. Berapa jeruk Ahmad?",
+                                                  "options": ["73", "63", "53", "43", "41"],
+                                                  "correctAnswer": 1,
+                                                  "explanation": "Gunakan sistem persamaan berbasis perbandingan jumlah jeruk."
+                                                },
+                                                {
+                                                  "id": 141,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Harga 2 kg mangga, 2 kg jeruk, dan 1 kg anggur adalah Rp70.000,00. Harga 1 kg mangga, 2 kg jeruk, dan 2 kg anggur adalah Rp90.000,00. Jika harga 2 kg mangga, 2 kg jeruk, dan 3 kg anggur Rp130.000,00, berapa harga 1 kg jeruk?",
+                                                  "options": ["Rp5.000", "Rp7.500", "Rp10.000", "Rp12.000", "Rp14.000"],
+                                                  "correctAnswer": 1,
+                                                  "explanation": "Gunakan sistem persamaan linear tiga variabel untuk menyelesaikan."
+                                                },
+                                                {
+                                                  "id": 142,
+                                                  "category": "Persamaan Linear",
+                                                  "question": "Sebuah album berisi x foto hitam-putih dan y foto berwarna. Jumlah total foto adalah 36. Mana yang tidak benar?",
+                                                  "options": ["x = 4y", "x = 3y", "x = 2y", "x = y", "x = 5y"],
+                                                  "correctAnswer": 4,
+                                                  "explanation": "Gunakan berbagai kemungkinan x dan y yang memenuhi x + y = 36."
+                                                },
+                                                {
+                                                  "id": 143,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Di sebuah perusahaan terdapat 69 pelamar yang harus mengikuti tes tertulis dan tes wawancara. Sebanyak 32 orang lulus tes wawancara, 48 orang lulus tes tertulis, dan 6 orang tidak mengikuti kedua tes tersebut. Berapa banyak pelamar yang diterima sebagai karyawan?",
+                                                      "options": ["31 orang", "17 orang", "15 orang", "11 orang", "12 orang"],
+                                                      "correctAnswer": 0,
+                                                      "explanation": "Gunakan rumus n(A ∩ B) = n(A) + n(B) - n(A ∪ B) untuk menghitung jumlah yang lulus kedua tes."
+                                                    },
+                                                    {
+                                                      "id": 144,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Dalam suatu kelas terdapat 25 siswa yang suka membaca dan 30 siswa suka mengarang. Jika 12 siswa suka keduanya, berapa total siswa dalam kelas?",
+                                                      "options": ["67", "55", "43", "37", "33"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Jumlah total = n(A) + n(B) - n(A ∩ B) = 25 + 30 - 12 = 43 siswa."
+                                                    },
+                                                    {
+                                                      "id": 145,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Di kelas 7 SMP Maju Jaya terdapat 45 siswa. Sebanyak 27 siswa menyukai matematika, 26 siswa menyukai bahasa Inggris, dan 5 siswa tidak menyukai keduanya. Berapa banyak siswa yang menyukai kedua pelajaran tersebut?",
+                                                      "options": ["12", "13", "14", "15", "16"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Jumlah total siswa - (Matematika + Bahasa Inggris - Siswa yang tidak suka keduanya)."
+                                                    },
+                                                    {
+                                                      "id": 146,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Di kelas terdapat 46 siswa, 26 siswa gemar bahasa Inggris, 32 siswa gemar bahasa Arab, dan 14 siswa gemar keduanya. Berapa siswa yang tidak gemar keduanya?",
+                                                      "options": ["6", "7", "8", "9", "2"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Jumlah total siswa - (n(Inggris) + n(Arab) - n(Keduanya))."
+                                                    },
+                                                    {
+                                                      "id": 147,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Di kelas F, 20% siswa hanya menyukai Bahasa Inggris, 15% hanya menyukai Matematika, dan 2 siswa tidak menyukai keduanya. Jika ada 40 siswa, berapa siswa yang menyukai keduanya?",
+                                                      "options": ["10", "16", "24", "32", "34"],
+                                                      "correctAnswer": 1,
+                                                      "explanation": "Total siswa - (siswa hanya Bahasa Inggris + hanya Matematika + tidak menyukai keduanya)."
+                                                    },
+                                                    {
+                                                      "id": 148,
+                                                      "category": "Logika Numerik",
+                                                      "question": "Dalam sebuah kandang terdapat 500 ekor lembu. Sebanyak 270 ekor jantan, 180 ekor berwarna hitam, dan total lembu yang berwarna hitam adalah 350 ekor. Berapa ekor lembu betina yang tidak berwarna hitam?",
+                                                      "options": ["60 ekor", "170 ekor", "230 ekor", "240 ekor", "270 ekor"],
+                                                      "correctAnswer": 1,
+                                                      "explanation": "Total lembu - lembu hitam - lembu jantan."
+                                                    },
+                                                    {
+                                                      "id": 149,
+                                                      "category": "Logika Numerik",
+                                                      "question": "Di dalam kelas terdapat 30 siswa. Sebanyak 27 siswa suka basket dan 22 siswa suka sepak bola. Berapa banyak siswa yang menyukai keduanya?",
+                                                      "options": ["5", "8", "10", "19", "12"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Gunakan rumus n(A ∩ B) = n(A) + n(B) - total siswa."
+                                                    },
+                                                    {
+                                                      "id": 150,
+                                                      "category": "Logika Numerik",
+                                                      "question": "Di dalam kelas terdapat 42 murid. Sebanyak 27 murid menyukai permen dan 23 murid menyukai coklat. Berapa murid yang menyukai keduanya?",
+                                                      "options": ["8", "9", "10", "11", "12"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Gunakan rumus jumlah total - (n(A) + n(B) - n(A ∩ B))."
+                                                    },
+                                                    {
+                                                      "id": 151,
+                                                      "category": "Himpunan & Diagram Venn",
+                                                      "question": "Di sebuah ruangan terdapat 150 siswa baru lulus SMP. Sebanyak 75 siswa memilih SMA, 63 siswa memilih SMK, dan 32 siswa belum menentukan pilihan. Berapa banyak siswa yang hanya memilih SMA?",
+                                                      "options": ["55", "43", "35", "75", "63"],
+                                                      "correctAnswer": 1,
+                                                      "explanation": "Total siswa - (SMA + SMK - yang belum memilih)."
+                                                    },
+                                                    {
+                                                      "id": 152,
+                                                      "category": "Logika Numerik",
+                                                      "question": "Di kelas terdapat 25 siswa yang suka membaca dan 30 siswa yang suka mengarang. Jika 12 orang siswa suka membaca dan mengarang, berapa total siswa dalam kelas tersebut?",
+                                                      "options": ["67", "55", "48", "43", "37"],
+                                                      "correctAnswer": 2,
+                                                      "explanation": "Total siswa dihitung dengan rumus n(A ∪ B) = n(A) + n(B) - n(A ∩ B)."
+                                                    },
+                                                    {
+                                                      "id": 153,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "(1/9 × 540) × 4,6 = ?",
+                                                          "options": ["276", "256", "298", "265", "241"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "(1/9 × 540) = 60, lalu 60 × 4,6 = 276."
+                                                        },
+                                                        {
+                                                          "id": 154,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "17,5 + 11,8 + 20,7 + 25,4 = ?",
+                                                          "options": ["68,7", "71,2", "73,9", "75,4", "78,2"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Jumlahkan semua angka: 17,5 + 11,8 + 20,7 + 25,4 = 73,9."
+                                                        },
+                                                        {
+                                                          "id": 155,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "8 × (210 - 98) = ?",
+                                                          "options": ["912", "878", "896", "806", "876"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Kurangi dulu: 210 - 98 = 112, lalu 8 × 112 = 896."
+                                                        },
+                                                        {
+                                                          "id": 156,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "321(27) - 321(19) + 321(3) = ?",
+                                                          "options": ["4140", "3980", "3830", "3531", "3901"],
+                                                          "correctAnswer": 1,
+                                                          "explanation": "Faktorkan 321 sebagai konstanta: 321 × (27 - 19 + 3) = 321 × 11 = 3980."
+                                                        },
+                                                        {
+                                                          "id": 157,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "354 - 81 ÷ 3 + 9 × 7 = ?",
+                                                          "options": ["300", "390", "360", "370", "400"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Urutan operasi: 81 ÷ 3 = 27, lalu 9 × 7 = 63, kemudian 354 - 27 + 63 = 360."
+                                                        },
+                                                        {
+                                                          "id": 158,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "61 × 14 + 72 ÷ 4 = ?",
+                                                          "options": ["812", "872", "798", "835", "824"],
+                                                          "correctAnswer": 4,
+                                                          "explanation": "Hitung satu per satu: 61 × 14 = 854, 72 ÷ 4 = 18, lalu 854 + 18 = 824."
+                                                        },
+                                                        {
+                                                          "id": 159,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "27 + 7,2 - 3,09 + 5,02 = ?",
+                                                          "options": ["29,78", "26,09", "27,15", "26,53", "27,44"],
+                                                          "correctAnswer": 4,
+                                                          "explanation": "Jumlahkan angka dengan teliti: 27 + 7,2 - 3,09 + 5,02 = 27,44."
+                                                        },
+                                                        {
+                                                          "id": 160,
+                                                          "category": "Operasi Bilangan",
+                                                          "question": "(123)² - (84)² = ?",
+                                                          "options": ["8564", "7894", "7250", "8073", "8208"],
+                                                          "correctAnswer": 4,
+                                                          "explanation": "Gunakan rumus (a² - b²) = (a - b)(a + b): (123 - 84)(123 + 84) = 39 × 207 = 8073."
+                                                        },
+                                                        {
+                                                          "id": 161,
+                                                          "category": "Persentase",
+                                                          "question": "8% dari 90 adalah ?",
+                                                          "options": ["7,2", "7,5", "6,8", "8", "7"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "8% × 90 = 0,08 × 90 = 7,2."
+                                                        },
+                                                        {
+                                                          "id": 162,
+                                                          "category": "Persentase",
+                                                          "question": "510 adalah 30% dari ?",
+                                                          "options": ["1700", "1850", "1900", "1650", "1725"],
+                                                          "correctAnswer": 4,
+                                                          "explanation": "Gunakan rumus x = nilai / persentase, yaitu 510 ÷ 0.3 = 1725."
+                                                        },
+                                                        {
+                                                          "id": 163,
+                                                          "category": "Deret Angka",
+                                                          "question": "Tentukan nilai X dan Y dalam pola berikut: 8, 12, 16, 20, 24, 28, 32, 36, 40, X dan 37, 41, 45, 49, 53, 57, 61, 65, 69, Y.",
+                                                          "options": ["42 dan 77", "44 dan 73", "43 dan 75", "41 dan 72", "45 dan 74"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Polanya adalah pertambahan 4 untuk X (40+4=44) dan pertambahan 4 untuk Y (69+4=75)."
+                                                        },
+                                                        {
+                                                          "id": 164,
+                                                          "category": "Deret Angka",
+                                                          "question": "Tentukan angka yang tepat untuk menggantikan tanda tanya: 3, 6, 9, ?, 15.",
+                                                          "options": ["12", "10", "11", "13", "14"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "Polanya bertambah 3 setiap langkah, sehingga angka yang hilang adalah 12."
+                                                        },
+                                                        {
+                                                          "id": 165,
+                                                          "category": "Deret Huruf dan Angka",
+                                                          "question": "Pilihlah dua jawaban yang tepat untuk melengkapi deret berikut: A1, B4, C9, ?, E25, F36.",
+                                                          "options": ["D16", "L36", "D4", "K36", "C4"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "Huruf bertambah 1, angka mengikuti pola kuadrat (1², 2², 3²,...), maka jawabannya D16."
+                                                        },
+                                                        {
+                                                          "id": 166,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Jika (4) (2) → (20), (5) (1) → (26), (7) (3) → (K), maka nilai K adalah...",
+                                                          "options": ["58", "52", "49", "55", "50"],
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Polanya: (A × B) + (A + B). Maka (7×3) + (7+3) = 21 + 10 = 55."
+                                                        },
+                                                        {
+                                                          "id": 167,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Jika (6) (10) → (2) (30), (5) (9) → (15) (3), (8) (8) → (4) (X), maka nilai X adalah...",
+                                                          "options": ["14", "21", "19", "10", "16"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Pola: jumlah dua angka pertama dikali dua = hasil. Maka 4 × 2 = 19."
+                                                        },
+                                                        {
+                                                          "id": 168,
+                                                          "category": "Deret Angka",
+                                                          "question": "Jika pola: 7, 14, 21, 28, ?, 42, maka angka yang tepat untuk menggantikan tanda tanya adalah...",
+                                                          "options": ["32", "34", "35", "36", "30"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Polanya bertambah 7 setiap langkah, sehingga angka yang hilang adalah 35."
+                                                        },
+                                                        {
+                                                          "id": 169,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Jika (9) (8) → (24) (3), (11) (6) → (2) (33), (5) (12) → (15) (Y), maka nilai Y adalah...",
+                                                          "options": ["4", "6", "5", "9", "2"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Pola: angka pertama dikalikan angka kedua, kemudian dibagi angka pertama, sehingga Y = 5."
+                                                        },
+                                                        {
+                                                          "id": 170,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Jika (8) (7) (3) → (53), (9) (6) (5) → (49), (7) (6) (2) → (F), maka nilai F adalah...",
+                                                          "options": ["27", "29", "36", "40", "45"],
+                                                          "correctAnswer": 2,
+                                                          "explanation": "Polanya: A × B + C = Hasil. Maka (7 × 6) + 2 = 36."
+                                                        },
+                                                        {
+                                                          "id": 171,
+                                                          "category": "Deret Angka",
+                                                          "question": "Jika pola: 1, 4, 9, 16, 25, ?, 49, maka angka yang tepat untuk menggantikan tanda tanya adalah...",
+                                                          "options": ["31", "36", "38", "40", "45"],
+                                                          "correctAnswer": 1,
+                                                          "explanation": "Pola bilangan kuadrat: 1², 2², 3², ... sehingga 6² = 36."
+                                                        },
+                                                        {
+                                                          "id": 172,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Jika (2) (5) → (49), (3) (6) → (81), (8) (5) → (C), maka nilai C yang tepat adalah...",
+                                                          "options": ["144", "225", "200", "196", "169"],
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Pola: angka pertama dikalikan angka kedua, kemudian dikuadratkan, maka (8 × 5)² = 196."
+                                                        },
+                                                            {
+                                                              "id": 173,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika pada susunan kata ‘MUTASI’ dikodekan menjadi ‘KSRYQG’, maka kata ‘DEMOSI’ menjadi …",
+                                                                  "options": ["BCMKQG", "BCKMQG", "CBMKQG", "BCKMGQ", "BKMCGQ"],
+                                                                  "correctAnswer": 0,
+                                                                  "explanation": "Huruf dalam kata mengalami pergeseran mundur dalam pola tertentu, sehingga DEMOSI → BCMKQG."
+                                                                },
+                                                                {
+                                                                  "id": 174,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika pada susunan abjad kata ‘LANTAS’ menjadi ‘NYPRYU’, maka kata ‘RESKRIM’ menjadi …",
+                                                                  "options": ["TCUITGO", "PDVJQHP", "TCMUTKO", "TGLMTLR", "TGUMTOK"],
+                                                                  "correctAnswer": 2,
+                                                                  "explanation": "Pergeseran huruf mengikuti pola tertentu, sehingga RESKRIM → TCMUTKO."
+                                                                },
+                                                                {
+                                                                  "id": 175,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika dalam bahasa tertentu TINTAMU dikodekan sebagai SJMUZNT, maka kode dari JIBANGRP adalah …",
+                                                                  "options": ["UNBMHQQ", "IJABOHQQ", "IPABMHQQ", "IJABMHQS", "IJABMHQQ"],
+                                                                  "correctAnswer": 4,
+                                                                  "explanation": "Pergeseran huruf dalam kode sandi mengikuti pola unik."
+                                                                },
+                                                                {
+                                                                  "id": 176,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika dalam bahasa tertentu ADIL dikodekan sebagai NOVY, maka kode ENGH adalah …",
+                                                                  "options": ["RAJA", "RAGA", "RATU", "RABU", "RUSA"],
+                                                                  "correctAnswer": 2,
+                                                                  "explanation": "Setiap huruf digantikan dengan huruf yang memiliki posisi terbalik dalam alfabet."
+                                                                },
+                                                                {
+                                                                  "id": 177,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika INDONESIA dikodekan sebagai JOEPOFTJB, maka MALAYSIA dikodekan sebagai …",
+                                                                  "options": ["MANAZJTA", "SIAMALAY", "NBMBZTJB", "NBMBXRKB", "NBMBYTKB"],
+                                                                  "correctAnswer": 2,
+                                                                  "explanation": "Setiap huruf digeser satu tingkat ke depan dalam alfabet."
+                                                                },
+                                                                {
+                                                                  "id": 178,
+                                                                  "category": "Kriptografi",
+                                                                  "question": "Jika SIMALAKAMA dituliskan menjadi AMAKALAMIS, maka BELASUNGKAWA dituliskan sebagai …",
+                                                                  "options": ["AWAKGNUSALEB", "AWAKGUNSALEB", "EBALUSGNAKAW", "AMAKGNUSALEB", "AMAKGUNSALEB"],
+                                                                  "correctAnswer": 0,
+                                                                  "explanation": "Huruf dalam kata dibalik urutannya."
+                                                                },
+                                                                {
+                                                                  "id": 179,
+                                                                  "category": "Logika Numerik",
+                                                                  "question": "Jika AKU = 33 dan KAMU = 46, maka KITA = …",
+                                                                  "options": ["38", "40", "41", "43", "45"],
+                                                                  "correctAnswer": 2,
+                                                                  "explanation": "Setiap huruf dikonversi ke angka sesuai posisi dalam alfabet, lalu dijumlahkan."
+                                                                },
+                                                                {
+                                                                  "id": 180,
+                                                                  "category": "Logika Numerik",
+                                                                  "question": "Kode 123456 diartikan ABCDEF, maka 145362 adalah …",
+                                                                  "options": ["AEFGCE", "ADECBB", "ADEBBC", "ADECFB", "AEDCFB"],
+                                                                  "correctAnswer": 4,
+                                                                  "explanation": "Susunan angka menentukan urutan huruf yang digunakan."
+                                                                },
+                                                                {
+                                                                  "id": 181,
+                                                                  "category": "Logika Numerik",
+                                                                  "question": "Jika dalam bahasa tertentu LAZY ditulis sebagai KZYX, maka TURON dikodekan dengan …",
+                                                                  "options": ["STQNM", "STLNM", "STQNK", "SDQNM", "STYNM"],
+                                                                  "correctAnswer": 0,
+                                                                  "explanation": "Huruf pertama bergeser mundur satu langkah, sisanya tetap."
+                                                                },
+                                                                {
+                                                                  "id": 182,
+                                                                  "category": "Logika Numerik",
+                                                                  "question": "Dalam bahasa buatan, MATAHARI dikodekan sebagai AMATAHIR. Dengan pola pengkodean yang sama, OLAHRAGA akan dikodekan menjadi …",
+                                                                  "options": ["LOHARAGA", "LOHAARAG", "LOHARGAA", "HALOAGAR", "AGARHALO"],
+                                                                  "correctAnswer": 2,
+                                                                  "explanation": "Huruf pertama dipindahkan ke akhir dan susunan kata sedikit diubah."
+                                                                }
+                                                              ]
+                                                            }
+                                                          
+                                                        
+
+                                                    
+                                                
+                            
+                  
+
+
+      
