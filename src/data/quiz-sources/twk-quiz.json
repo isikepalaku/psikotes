@@ -1,7 +1,7 @@
 {
   "id": "polri_personality_test",
   "title": "Tes Kepribadian",
-  "timeLimit": 1800,
+  "timeLimit": 3300,
   "icon": "ShieldCheck",
   "color": "blue",
   "description": "Tes ini bertujuan untuk menilai kepribadian calon perwira Polri melalui serangkaian pernyataan yang mengukur kepemimpinan, kedisiplinan, integritas, kerja sama, dan pengendalian diri. Peserta diminta untuk menilai pernyataan berdasarkan tingkat kesetujuan mereka.",

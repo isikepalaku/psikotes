@@ -2,7 +2,7 @@
   "id": "verbal_test",
   "title": "Tes Kecerdasan Umum",
   "description": "Tes ini menguji kemampuan dalam sinonim, antonim, analogi, pengelompokan kata, deret angka, pola numerik, logika numerik, himpunan dan diagram Venn, serta pemecahan masalah berbasis matematika dasar.",
-  "timeLimit": 1800,
+  "timeLimit": 10080,
   "questions": [
     {
       "id": 1,
@@ -1103,7 +1103,7 @@
                                                       "question": "Di sebuah perusahaan terdapat 69 pelamar yang harus mengikuti tes tertulis dan tes wawancara. Sebanyak 32 orang lulus tes wawancara, 48 orang lulus tes tertulis, dan 6 orang tidak mengikuti kedua tes tersebut. Berapa banyak pelamar yang diterima sebagai karyawan?",
                                                       "options": ["31 orang", "17 orang", "15 orang", "11 orang", "12 orang"],
                                                       "correctAnswer": 0,
-                                                      "explanation": "Gunakan rumus n(A ∩ B) = n(A) + n(B) - n(A ∪ B) untuk menghitung jumlah yang lulus kedua tes."
+                                                      "explanation": "Mari kita lihat deret angka ini langkah demi langkah:\n1. Dari angka 3 ke 5: kita menambahkan 2 (3 + 2 = 5).\n2. Dari angka 5 ke 9: kita menambahkan 4 (5 + 4 = 9). Perhatikan, 4 adalah dua kali 2.\n3. Dari angka 9 ke 17: kita menambahkan 8 (9 + 8 = 17). Di sini, 8 adalah dua kali 4.\nJadi, pola yang muncul adalah setiap kali angka yang ditambahkan menjadi dua kali lipat (2, 4, 8, ...).\nSelanjutnya, angka yang akan ditambahkan adalah 16 (karena 8 x 2 = 16).\nAkhirnya, 17 + 16 = 33. Itulah angka berikutnya dalam deret ini."
                                                     },
                                                     {
                                                       "id": 144,
@@ -1127,7 +1127,7 @@
                                                       "question": "Di kelas terdapat 46 siswa, 26 siswa gemar bahasa Inggris, 32 siswa gemar bahasa Arab, dan 14 siswa gemar keduanya. Berapa siswa yang tidak gemar keduanya?",
                                                       "options": ["6", "7", "8", "9", "2"],
                                                       "correctAnswer": 2,
-                                                      "explanation": "Jumlah total siswa - (n(Inggris) + n(Arab) - n(Keduanya))."
+                                                      "explanation": "Mari kita bayangkan kelas ini sebagai sebuah lingkaran besar yang berisi 46 siswa. Di dalam lingkaran itu, ada dua kelompok:\n\n1. Kelompok siswa yang gemar bahasa Inggris berjumlah 26 orang.\n2. Kelompok siswa yang gemar bahasa Arab berjumlah 32 orang.\n\nTapi, ada juga siswa yang suka kedua bahasa tersebut, yaitu 14 orang. Karena siswa yang suka kedua bahasa dihitung dua kali (sekali di kelompok Inggris dan sekali di kelompok Arab), kita harus menguranginya agar tidak terjadi penghitungan ganda.\n\nRumus yang kita gunakan adalah:\n\n  Siswa yang suka minimal salah satu bahasa = (Siswa yang suka Inggris) + (Siswa yang suka Arab) - (Siswa yang suka kedua bahasa)\n\nMasukkan angka-angkanya:\n\n  26 + 32 - 14 = 44\n\nJadi, ada 44 siswa yang menyukai setidaknya salah satu dari kedua bahasa tersebut.\n\nUntuk mencari berapa siswa yang tidak gemar kedua bahasa (yaitu yang tidak menyukai bahasa Inggris maupun bahasa Arab), kita kurangkan jumlah siswa yang menyukai setidaknya salah satu bahasa dari jumlah total siswa:\n\n  Siswa yang tidak gemar kedua bahasa = Total siswa - Siswa yang suka minimal salah satu bahasa\n  = 46 - 44\n  = 2\n\nJadi, jawabannya adalah 2."
                                                     },
                                                     {
                                                       "id": 147,
@@ -1146,52 +1146,54 @@
                                                       "explanation": "Total lembu - lembu hitam - lembu jantan."
                                                     },
                                                     {
-                                                      "id": 149,
-                                                      "category": "Logika Numerik",
-                                                      "question": "Di dalam kelas terdapat 30 siswa. Sebanyak 27 siswa suka basket dan 22 siswa suka sepak bola. Berapa banyak siswa yang menyukai keduanya?",
-                                                      "options": ["5", "8", "10", "19", "12"],
-                                                      "correctAnswer": 2,
-                                                      "explanation": "Gunakan rumus n(A ∩ B) = n(A) + n(B) - total siswa."
-                                                    },
-                                                    {
-                                                      "id": 150,
-                                                      "category": "Logika Numerik",
-                                                      "question": "Di dalam kelas terdapat 42 murid. Sebanyak 27 murid menyukai permen dan 23 murid menyukai coklat. Berapa murid yang menyukai keduanya?",
-                                                      "options": ["8", "9", "10", "11", "12"],
-                                                      "correctAnswer": 2,
-                                                      "explanation": "Gunakan rumus jumlah total - (n(A) + n(B) - n(A ∩ B))."
-                                                    },
-                                                    {
-                                                      "id": 151,
-                                                      "category": "Himpunan & Diagram Venn",
-                                                      "question": "Di sebuah ruangan terdapat 150 siswa baru lulus SMP. Sebanyak 75 siswa memilih SMA, 63 siswa memilih SMK, dan 32 siswa belum menentukan pilihan. Berapa banyak siswa yang hanya memilih SMA?",
-                                                      "options": ["55", "43", "35", "75", "63"],
-                                                      "correctAnswer": 1,
-                                                      "explanation": "Total siswa - (SMA + SMK - yang belum memilih)."
-                                                    },
-                                                    {
-                                                      "id": 152,
-                                                      "category": "Logika Numerik",
-                                                      "question": "Di kelas terdapat 25 siswa yang suka membaca dan 30 siswa yang suka mengarang. Jika 12 orang siswa suka membaca dan mengarang, berapa total siswa dalam kelas tersebut?",
-                                                      "options": ["67", "55", "48", "43", "37"],
-                                                      "correctAnswer": 2,
-                                                      "explanation": "Total siswa dihitung dengan rumus n(A ∪ B) = n(A) + n(B) - n(A ∩ B)."
-                                                    },
-                                                    {
-                                                      "id": 153,
+                                                      "questions": [
+                                                        {
+                                                          "id": 149,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Di dalam kelas terdapat 30 siswa. Sebanyak 27 siswa suka basket dan 22 siswa suka sepak bola. Berapa banyak siswa yang menyukai keduanya?",
+                                                          "options": ["5", "8", "10", "19", "12"],
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Bayangkan ada 30 siswa di kelas. Jika 27 siswa suka basket dan 22 siswa suka sepak bola, maka jika kita jumlahkan keduanya, kita dapat 27 + 22 = 49. Namun, karena kelas hanya terdiri dari 30 siswa, artinya ada beberapa siswa yang dihitung dua kali karena mereka menyukai kedua olahraga tersebut. Untuk menemukan jumlah siswa yang menyukai kedua olahraga, kita gunakan rumus:\n\n  n(Both) = n(Basket) + n(Sepakbola) - Total Siswa\n\nMasukkan angkanya:\n  n(Both) = 27 + 22 - 30 = 49 - 30 = 19\n\nJadi, 19 siswa menyukai kedua olahraga."
+                                                        },
+                                                        {
+                                                          "id": 150,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Di dalam kelas terdapat 42 murid. Sebanyak 27 murid menyukai permen dan 23 murid menyukai coklat. Berapa murid yang menyukai keduanya?",
+                                                          "options": ["8", "9", "10", "11", "12"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "Bayangkan kelas dengan 42 murid. Jika 27 murid suka permen dan 23 murid suka coklat, maka jumlah murid yang disukai secara total adalah 27 + 23 = 50. Karena hanya ada 42 murid, murid yang menyukai kedua jenis tersebut dihitung dua kali. Untuk mengetahui jumlah murid yang menyukai kedua jenis, gunakan rumus:\n\n  n(Both) = n(Permen) + n(Coklat) - Total Murid\n\nJadi:\n  n(Both) = 27 + 23 - 42 = 50 - 42 = 8\n\nMaka, 8 murid menyukai keduanya."
+                                                        },
+                                                        {
+                                                          "id": 151,
+                                                          "category": "Himpunan & Diagram Venn",
+                                                          "question": "Di sebuah ruangan terdapat 150 siswa baru lulus SMP. Sebanyak 75 siswa memilih SMA, 63 siswa memilih SMK, dan 32 siswa belum menentukan pilihan. Berapa banyak siswa yang hanya memilih SMA?",
+                                                          "options": ["55", "43", "35", "75", "63"],
+                                                          "correctAnswer": 0,
+                                                          "explanation": "Pertama, hitung siswa yang sudah menentukan pilihan:\n  Siswa yang memilih = Total siswa - Siswa yang belum menentukan = 150 - 32 = 118\n\nKemudian, kita gunakan rumus untuk dua kelompok:\n  n(SMA ∪ SMK) = n(SMA) + n(SMK) - n(Keduanya)\n\nKarena n(SMA ∪ SMK) adalah 118, maka:\n  n(Keduanya) = 75 + 63 - 118 = 138 - 118 = 20\n\nSiswa yang hanya memilih SMA = n(SMA) - n(Keduanya) = 75 - 20 = 55."
+                                                        },
+                                                        {
+                                                          "id": 152,
+                                                          "category": "Logika Numerik",
+                                                          "question": "Di kelas terdapat 25 siswa yang suka membaca dan 30 siswa yang suka mengarang. Jika 12 orang siswa suka membaca dan mengarang, berapa total siswa dalam kelas tersebut?",
+                                                          "options": ["67", "55", "48", "43", "37"],
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Untuk menghitung total siswa yang memiliki setidaknya satu minat (membaca atau mengarang), kita gunakan rumus:\n\n  n(A ∪ B) = n(Membaca) + n(Mengarang) - n(Keduanya)\n\nMasukkan angkanya:\n  n(A ∪ B) = 25 + 30 - 12 = 55 - 12 + 30 = 43\n\nJadi, total siswa yang menyukai salah satu atau kedua aktivitas tersebut adalah 43."
+                                                        },
+                                                        {
+                                                          "id": 153,
                                                           "category": "Operasi Bilangan",
                                                           "question": "(1/9 × 540) × 4,6 = ?",
                                                           "options": ["276", "256", "298", "265", "241"],
                                                           "correctAnswer": 0,
-                                                          "explanation": "(1/9 × 540) = 60, lalu 60 × 4,6 = 276."
+                                                          "explanation": "Langkah pertama, bagi 540 dengan 9: 540 ÷ 9 = 60.\nKemudian, kalikan hasilnya dengan 4,6: 60 × 4,6 = 276.\nJadi, jawabannya adalah 276."
                                                         },
                                                         {
                                                           "id": 154,
                                                           "category": "Operasi Bilangan",
                                                           "question": "17,5 + 11,8 + 20,7 + 25,4 = ?",
                                                           "options": ["68,7", "71,2", "73,9", "75,4", "78,2"],
-                                                          "correctAnswer": 2,
-                                                          "explanation": "Jumlahkan semua angka: 17,5 + 11,8 + 20,7 + 25,4 = 73,9."
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Jumlahkan angka-angka berikut secara bertahap:\n1. 17,5 + 11,8 = 29,3\n2. 29,3 + 20,7 = 50,0\n3. 50,0 + 25,4 = 75,4\nJadi, jawabannya adalah 75,4."
                                                         },
                                                         {
                                                           "id": 155,
@@ -1199,16 +1201,18 @@
                                                           "question": "8 × (210 - 98) = ?",
                                                           "options": ["912", "878", "896", "806", "876"],
                                                           "correctAnswer": 2,
-                                                          "explanation": "Kurangi dulu: 210 - 98 = 112, lalu 8 × 112 = 896."
+                                                          "explanation": "Pertama, hitung isi tanda kurung: 210 - 98 = 112.\nKemudian, kalikan 112 dengan 8: 112 × 8 = 896.\nJadi, jawabannya adalah 896."
                                                         },
                                                         {
                                                           "id": 156,
                                                           "category": "Operasi Bilangan",
                                                           "question": "321(27) - 321(19) + 321(3) = ?",
                                                           "options": ["4140", "3980", "3830", "3531", "3901"],
-                                                          "correctAnswer": 1,
-                                                          "explanation": "Faktorkan 321 sebagai konstanta: 321 × (27 - 19 + 3) = 321 × 11 = 3980."
-                                                        },
+                                                          "correctAnswer": 3,
+                                                          "explanation": "Faktorkan 321 dari setiap suku:\n  321 × (27 - 19 + 3)\nPertama, hitung di dalam tanda kurung:\n  27 - 19 = 8\n  8 + 3 = 11\nKemudian, kalikan 321 dengan 11:\n  321 × 11 = 3531\nJadi, jawabannya adalah 3531."
+                                                        }
+                                                      ]
+                                                    },
                                                         {
                                                           "id": 157,
                                                           "category": "Operasi Bilangan",

@@ -1,7 +1,7 @@
 {
   "id": "polri_cermat_test_final",
   "title": "Tes Kecermatan Calon Perwira Polri",
-  "timeLimit": 3000,
+  "timeLimit": 4200,
   "icon": "Brain",
   "color": "darkred",
   "description": "Tes ini bertujuan untuk mengukur kecermatan, logika, dan konsistensi calon perwira Polri dalam mengenali pola angka, huruf, simbol, dan kombinasi. Soal dirancang untuk menilai kemampuan berpikir cepat dan tepat.",
