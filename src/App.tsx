@@ -4,6 +4,7 @@ import { AdminPage } from './pages/AdminPage';
 import { QuizSelection } from './pages/QuizSelection';
 import { Layout } from './components/Layout';
 import { Footer } from './components/Footer';
+import MateriPage from './pages/Materi';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
               <Route path="/" element={<QuizSelection />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/admin" element={<AdminPage />} />
+              <Route path="/materi" element={<MateriPage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
