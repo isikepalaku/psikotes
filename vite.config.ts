@@ -7,9 +7,6 @@ export default defineConfig({
   server: {
     port: 5454
   },
-  css: {
-    postcss: './postcss.config.js'
-  },
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
